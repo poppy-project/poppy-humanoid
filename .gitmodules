@@ -1,0 +1,15 @@
+[submodule "hardware/lower_limbs"]
+	path = hardware/lower_limbs
+	url = https://github.com/poppy-project/Poppy-lightweight-biped-legs.git
+[submodule "hardware/robotis_library"]
+	path = hardware/robotis_library
+	url = https://github.com/matthieu-lapeyre/Robotis-library.git
+[submodule "hardware/torso"]
+	path = hardware/torso
+	url = https://github.com/poppy-project/Poppy-multiarticulated-torso.git
+[submodule "hardware/head"]
+	path = hardware/head
+	url = https://github.com/poppy-project/Poppy-minimal-head-design
+[submodule "hardware/upper_limbs"]
+	path = hardware/upper_limbs
+	url = https://github.com/poppy-project/Poppy-basic-arms
