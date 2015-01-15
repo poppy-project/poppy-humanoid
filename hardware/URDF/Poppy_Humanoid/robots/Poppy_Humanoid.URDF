@@ -149,7 +149,7 @@
     <child
       link="r_hip_motor" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -207,7 +207,7 @@
     <child
       link="r_thigh" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -265,7 +265,7 @@
     <child
       link="r_leg" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
       effort="6.4"
       lower="-3"
@@ -323,7 +323,7 @@
     <child
       link="r_foot" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -439,7 +439,7 @@
     <child
       link="l_hip_motor" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -671,7 +671,7 @@
     <child
       link="abs_motors" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -729,7 +729,7 @@
     <child
       link="abdomen" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
       effort="6.4"
       lower="-3"
@@ -845,7 +845,7 @@
     <child
       link="bust_motors" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -903,7 +903,7 @@
     <child
       link="chest" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
       effort="6.4"
       lower="-3"
@@ -1019,7 +1019,7 @@
     <child
       link="head" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -1135,7 +1135,7 @@
     <child
       link="l_shoulder_motor" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
       effort="6.4"
       lower="-3"
@@ -1193,7 +1193,7 @@
     <child
       link="upper_arm" />
     <axis
-      xyz="0 -1 0" />
+      xyz="0 1 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -1309,7 +1309,7 @@
     <child
       link="r_shoulder" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -1425,7 +1425,7 @@
     <child
       link="r_upper_arm" />
     <axis
-      xyz="0 -1 0" />
+      xyz="0 1 0" />
     <limit
       effort="6.4"
       lower="-3"
@@ -1483,7 +1483,7 @@
     <child
       link="r_forearm" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       effort="6.4"
       lower="-3"
