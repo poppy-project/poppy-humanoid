@@ -1,0 +1,2 @@
+include configuration/*.json
+include vrep-scene/*.ttt
