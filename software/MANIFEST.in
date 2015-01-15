@@ -1,2 +1,2 @@
-include configuration/*.json
-include vrep-scene/*.ttt
+include poppy_humanoid/configuration/*.json
+include poppy_humanoid/vrep-scene/*.ttt
