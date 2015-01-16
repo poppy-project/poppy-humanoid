@@ -1,8 +1,10 @@
+from __future__ import division
+
 import pypot.primitive
 
 
 class LimitTorque(pypot.primitive.LoopPrimitive):
-    def __init__(self, poppy_humanoid, freq=20, max_error=10, torque_min=20, torque_max=95):
+    def __init__(self, poppy_humanoid, freq=20, max_error=10., torque_min=20., torque_max=95.):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_humanoid, freq)
 
         self.poppy_humanoid = poppy_humanoid
@@ -36,4 +38,4 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
     def max_error(self, new_error):
         if new_error <= 0:
             raise ValueError('The max_error parameter must be strictly positive!')
-        self._max_error = new_error
+        self._max_error = float(new_error)
