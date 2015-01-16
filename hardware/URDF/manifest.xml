@@ -1,0 +1,7 @@
+<package>
+  <description brief="Poppy_Humanoid">Poppy_Humanoid</description>
+  <depend package="gazebo" />
+  <author>Matthieu Lapeyre, Poppy Project</author>
+  <url>www.poppy-project.org</url>
+  <license> CC-BY-SA </license>
+</package>
