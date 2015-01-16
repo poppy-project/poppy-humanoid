@@ -34,6 +34,6 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
 
     @max_error.setter
     def max_error(self, new_error):
-        if new_error < 0:
-            raise ValueError('The max_error parameter must be positive!')
+        if new_error <= 0:
+            raise ValueError('The max_error parameter must be strictly positive!')
         self._max_error = new_error
