@@ -22,7 +22,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/pelvis.STL" />
+          filename="package://meshes/pelvis.STL" />
       </geometry>
       <material
         name="">
@@ -36,7 +36,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/pelvis.STL" />
+          filename="package://meshes/pelvis.STL" />
       </geometry>
     </collision>
   </link>
@@ -62,7 +62,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_hip.STL" />
+          filename="package://meshes/r_hip.STL" />
       </geometry>
       <material
         name="">
@@ -76,7 +76,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_hip.STL" />
+          filename="package://meshes/r_hip.STL" />
       </geometry>
     </collision>
   </link>
@@ -120,7 +120,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_hip_motor.STL" />
+          filename="package://meshes/r_hip_motor.STL" />
       </geometry>
       <material
         name="">
@@ -134,7 +134,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_hip_motor.STL" />
+          filename="package://meshes/r_hip_motor.STL" />
       </geometry>
     </collision>
   </link>
@@ -178,7 +178,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_thigh.STL" />
+          filename="package://meshes/r_thigh.STL" />
       </geometry>
       <material
         name="">
@@ -192,7 +192,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_thigh.STL" />
+          filename="package://meshes/r_thigh.STL" />
       </geometry>
     </collision>
   </link>
@@ -236,7 +236,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_leg.STL" />
+          filename="package://meshes/r_leg.STL" />
       </geometry>
       <material
         name="">
@@ -250,7 +250,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_leg.STL" />
+          filename="package://meshes/r_leg.STL" />
       </geometry>
     </collision>
   </link>
@@ -294,7 +294,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_foot.STL" />
+          filename="package://meshes/r_foot.STL" />
       </geometry>
       <material
         name="">
@@ -308,7 +308,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_foot.STL" />
+          filename="package://meshes/r_foot.STL" />
       </geometry>
     </collision>
   </link>
@@ -352,7 +352,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_hip.STL" />
+          filename="package://meshes/l_hip.STL" />
       </geometry>
       <material
         name="">
@@ -366,7 +366,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_hip.STL" />
+          filename="package://meshes/l_hip.STL" />
       </geometry>
     </collision>
   </link>
@@ -410,7 +410,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_hip_motor.STL" />
+          filename="package://meshes/l_hip_motor.STL" />
       </geometry>
       <material
         name="">
@@ -424,7 +424,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_hip_motor.STL" />
+          filename="package://meshes/l_hip_motor.STL" />
       </geometry>
     </collision>
   </link>
@@ -468,7 +468,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_thigh.STL" />
+          filename="package://meshes/l_thigh.STL" />
       </geometry>
       <material
         name="">
@@ -482,7 +482,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_thigh.STL" />
+          filename="package://meshes/l_thigh.STL" />
       </geometry>
     </collision>
   </link>
@@ -526,7 +526,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_leg.STL" />
+          filename="package://meshes/l_leg.STL" />
       </geometry>
       <material
         name="">
@@ -540,7 +540,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_leg.STL" />
+          filename="package://meshes/l_leg.STL" />
       </geometry>
     </collision>
   </link>
@@ -584,7 +584,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_foot.STL" />
+          filename="package://meshes/l_foot.STL" />
       </geometry>
       <material
         name="">
@@ -598,7 +598,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_foot.STL" />
+          filename="package://meshes/l_foot.STL" />
       </geometry>
     </collision>
   </link>
@@ -642,7 +642,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/abs_motors.STL" />
+          filename="package://meshes/abs_motors.STL" />
       </geometry>
       <material
         name="">
@@ -656,7 +656,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/abs_motors.STL" />
+          filename="package://meshes/abs_motors.STL" />
       </geometry>
     </collision>
   </link>
@@ -700,7 +700,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/abdomen.STL" />
+          filename="package://meshes/abdomen.STL" />
       </geometry>
       <material
         name="">
@@ -714,7 +714,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/abdomen.STL" />
+          filename="package://meshes/abdomen.STL" />
       </geometry>
     </collision>
   </link>
@@ -758,7 +758,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/spine.STL" />
+          filename="package://meshes/spine.STL" />
       </geometry>
       <material
         name="">
@@ -772,7 +772,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/spine.STL" />
+          filename="package://meshes/spine.STL" />
       </geometry>
     </collision>
   </link>
@@ -816,7 +816,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/bust_motors.STL" />
+          filename="package://meshes/bust_motors.STL" />
       </geometry>
       <material
         name="">
@@ -830,7 +830,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/bust_motors.STL" />
+          filename="package://meshes/bust_motors.STL" />
       </geometry>
     </collision>
   </link>
@@ -874,7 +874,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/chest.STL" />
+          filename="package://meshes/chest.STL" />
       </geometry>
       <material
         name="">
@@ -888,7 +888,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/chest.STL" />
+          filename="package://meshes/chest.STL" />
       </geometry>
     </collision>
   </link>
@@ -932,7 +932,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/neck.STL" />
+          filename="package://meshes/neck.STL" />
       </geometry>
       <material
         name="">
@@ -946,7 +946,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/neck.STL" />
+          filename="package://meshes/neck.STL" />
       </geometry>
     </collision>
   </link>
@@ -990,7 +990,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/head.STL" />
+          filename="package://meshes/head.STL" />
       </geometry>
       <material
         name="">
@@ -1004,7 +1004,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/head.STL" />
+          filename="package://meshes/head.STL" />
       </geometry>
     </collision>
   </link>
@@ -1048,7 +1048,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_shoulder.STL" />
+          filename="package://meshes/l_shoulder.STL" />
       </geometry>
       <material
         name="">
@@ -1062,7 +1062,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_shoulder.STL" />
+          filename="package://meshes/l_shoulder.STL" />
       </geometry>
     </collision>
   </link>
@@ -1106,7 +1106,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_shoulder_motor.STL" />
+          filename="package://meshes/l_shoulder_motor.STL" />
       </geometry>
       <material
         name="">
@@ -1120,7 +1120,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_shoulder_motor.STL" />
+          filename="package://meshes/l_shoulder_motor.STL" />
       </geometry>
     </collision>
   </link>
@@ -1164,7 +1164,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/upper_arm.STL" />
+          filename="package://meshes/upper_arm.STL" />
       </geometry>
       <material
         name="">
@@ -1178,7 +1178,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/upper_arm.STL" />
+          filename="package://meshes/upper_arm.STL" />
       </geometry>
     </collision>
   </link>
@@ -1222,7 +1222,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_forearm.STL" />
+          filename="package://meshes/l_forearm.STL" />
       </geometry>
       <material
         name="">
@@ -1236,7 +1236,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/l_forearm.STL" />
+          filename="package://meshes/l_forearm.STL" />
       </geometry>
     </collision>
   </link>
@@ -1280,7 +1280,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_shoulder.STL" />
+          filename="package://meshes/r_shoulder.STL" />
       </geometry>
       <material
         name="">
@@ -1294,7 +1294,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_shoulder.STL" />
+          filename="package://meshes/r_shoulder.STL" />
       </geometry>
     </collision>
   </link>
@@ -1338,7 +1338,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_shoulder_motor.STL" />
+          filename="package://meshes/r_shoulder_motor.STL" />
       </geometry>
       <material
         name="">
@@ -1352,7 +1352,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_shoulder_motor.STL" />
+          filename="package://meshes/r_shoulder_motor.STL" />
       </geometry>
     </collision>
   </link>
@@ -1396,7 +1396,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_upper_arm.STL" />
+          filename="package://meshes/r_upper_arm.STL" />
       </geometry>
       <material
         name="">
@@ -1410,7 +1410,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_upper_arm.STL" />
+          filename="package://meshes/r_upper_arm.STL" />
       </geometry>
     </collision>
   </link>
@@ -1454,7 +1454,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_forearm.STL" />
+          filename="package://meshes/r_forearm.STL" />
       </geometry>
       <material
         name="">
@@ -1468,7 +1468,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Poppy_Humanoid/meshes/r_forearm.STL" />
+          filename="package://meshes/r_forearm.STL" />
       </geometry>
     </collision>
   </link>
