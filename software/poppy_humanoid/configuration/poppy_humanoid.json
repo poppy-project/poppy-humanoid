@@ -102,7 +102,7 @@
       "orientation": "indirect"
     },
     "head_y": {
-      "offset": 10.0,
+      "offset": 20.0,
       "type": "AX-12",
       "id": 37,
       "angle_limit": [
@@ -233,7 +233,7 @@
     },
     "abs_x": {
       "offset": 0.0,
-      "type": "MX-28",
+      "type": "MX-64",
       "id": 32,
       "angle_limit": [
         -45,
@@ -243,7 +243,7 @@
     },
     "abs_y": {
       "offset": 0.0,
-      "type": "MX-28",
+      "type": "MX-64",
       "id": 31,
       "angle_limit": [
         -37,
