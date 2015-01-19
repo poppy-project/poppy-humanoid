@@ -18,12 +18,12 @@ class SimpleBodyBeatMotion(pypot.primitive.LoopPrimitive):
     def __init__(self, robot, bpm, motion_amplitude=10):
         pypot.primitive.LoopPrimitive.__init__(self, robot, 50)
 
-        self.robot = robot
         self._bpm = bpm
         self.amplitude = motion_amplitude
         self.frequency = bpm / 60.0
         self.pi = numpy.pi
 
+    def setup(self):
         for m in self.robot.motors:
             m.moving_speed = 50.0
 
