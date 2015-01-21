@@ -29,7 +29,7 @@ setup(name='poppy-humanoid',
 
       author='Pierre Rouanet, Matthieu Lapeyre',
       author_email='pierre.rouanet@gmail.com',
-      description='Abstract Poppy Creature Software Library',
+      description='Poppy Humanoid Software Library',
       url='https://github.com/poppy-project/poppy-creature',
       license='GNU GENERAL PUBLIC LICENSE Version 3',
 
