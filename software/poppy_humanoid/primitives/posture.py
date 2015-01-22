@@ -31,15 +31,15 @@ class InitRobot(pypot.primitive.Primitive):
 class StandPosition(InitRobot):
     def run(self):
         # Goto to position 0 on all motors
-        self.robot.goto_position(dict(zip((m.name for m in self.robot.motors), itertools.repeat(0))), 2)
+        self.robot.goto_position(dict(zip((m.name for m in self.robot.motors), itertools.repeat(0))), 2, wait=True)
 
         # Specified some motor positions to keep the robot balanced
         self.robot.goto_position({'r_hip_z': -2,
                                   'l_hip_z': 2,
                                   'r_hip_x': -2,
                                   'l_hip_x': 2,
-                                  'l_shoulder_x': 90,
-                                  'r_shoulder_x': -90,
+                                  'l_shoulder_x': 20,
+                                  'r_shoulder_x': -20,
                                   'l_shoulder_y': 10,
                                   'r_shoulder_y': 10,
                                   'l_elbow_y': -20,
@@ -48,7 +48,7 @@ class StandPosition(InitRobot):
                                   'r_ankle_y': -4,
                                   'abs_y': -4,
                                   'head_y': 0,
-                                  'head_z':0},
+                                  'head_z': 0},
                                  3,
                                  wait=True)
 
@@ -75,10 +75,10 @@ class SitPosition(pypot.primitive.Primitive):
                                  2,
                                  wait=True)
 
-        # motor_list = [self.robot.l_knee_y, self.robot.l_ankle_y, self.robot.r_knee_y, self.robot.r_ankle_y]
+        motor_list = [self.robot.l_knee_y, self.robot.l_ankle_y, self.robot.r_knee_y, self.robot.r_ankle_y]
 
-        # for m in motor_list:
-        #     m.compliant = True
+        for m in motor_list:
+            m.compliant = True
 
         for m in self.robot.legs:
             m.torque_limit = 20
