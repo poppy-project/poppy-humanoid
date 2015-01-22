@@ -29,7 +29,6 @@ class InitRobot(pypot.primitive.Primitive):
 
 
 class StandPosition(InitRobot):
-
     def run(self):
         # Goto to position 0 on all motors
         self.robot.goto_position(dict(zip((m.name for m in self.robot.motors), itertools.repeat(0))), 2)
@@ -39,8 +38,8 @@ class StandPosition(InitRobot):
                                   'l_hip_z': 2,
                                   'r_hip_x': -2,
                                   'l_hip_x': 2,
-                                  'l_shoulder_x': 10,
-                                  'r_shoulder_x': -10,
+                                  'l_shoulder_x': 90,
+                                  'r_shoulder_x': -90,
                                   'l_shoulder_y': 10,
                                   'r_shoulder_y': 10,
                                   'l_elbow_y': -20,
