@@ -44,6 +44,9 @@ class SimpleBodyBeatMotion(pypot.primitive.LoopPrimitive):
         self.robot.r_elbow_y.goal_position = sinus(amp / 2.0, t, freq, offset=-20)
         self.robot.l_elbow_y.goal_position = sinus(amp / 2.0, t, freq / 2.0, offset=-20)
 
+    def teardown(self):
+        self.robot.power_up()
+
     @property
     def bpm(self):
         return self._bpm
