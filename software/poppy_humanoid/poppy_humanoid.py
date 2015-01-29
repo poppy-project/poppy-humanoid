@@ -23,4 +23,4 @@ class PoppyHumanoid(AbstractPoppyCreature):
         robot.attach_primitive(LimitTorque(robot), 'limit_torque')
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
 
-        robot.limit_torque.start()
+        # robot.limit_torque.start()

@@ -82,3 +82,5 @@ class SitPosition(pypot.primitive.Primitive):
 
         for m in self.robot.legs:
             m.torque_limit = 20
+
+        time.sleep(2)
