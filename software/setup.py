@@ -18,7 +18,7 @@ setup(name='poppy-humanoid',
       version=version(),
       packages=find_packages(),
 
-      install_requires=['poppy-creature'],
+      install_requires=['poppy-creature', 'ipython[all]', 'pypot[server, remote-robot]'],
 
       setup_requires=['setuptools_git >= 0.3', ],
 
