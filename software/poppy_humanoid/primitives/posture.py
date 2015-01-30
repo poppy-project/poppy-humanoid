@@ -44,9 +44,9 @@ class StandPosition(InitRobot):
                                   'r_shoulder_y': 10,
                                   'l_elbow_y': -20,
                                   'r_elbow_y': -20,
-                                  'l_ankle_y': -4,
-                                  'r_ankle_y': -4,
-                                  'abs_y': -4,
+                                  'l_ankle_y': -6,
+                                  'r_ankle_y': -6,
+                                  'abs_y': -2,
                                   'head_y': 0,
                                   'head_z': 0},
                                  3,
@@ -58,6 +58,8 @@ class StandPosition(InitRobot):
         # Reduce max torque to keep motor temperature low
         for m in self.robot.motors:
             m.torque_limit = 70
+
+        time.sleep(1)
 
 
 class SitPosition(pypot.primitive.Primitive):
