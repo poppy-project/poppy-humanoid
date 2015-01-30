@@ -18,7 +18,7 @@ class PoppyHumanoid(AbstractPoppyCreature):
             cls.vrep_hack(robot)
         for m in robot.motors:
             m.compliant_behavior = 'safe'
-            m.default_goto_behavior = 'minjerk'
+            m.goto_behavior = 'minjerk'
 
         robot.attach_primitive(StandPosition(robot), 'stand_position')
         robot.attach_primitive(SitPosition(robot), 'sit_position')
