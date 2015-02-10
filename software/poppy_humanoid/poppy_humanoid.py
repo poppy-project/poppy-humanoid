@@ -32,8 +32,8 @@ class PoppyHumanoid(AbstractPoppyCreature):
         # robot.limit_torque.start()
 
         # Idle primitives
-        robot.attach_primitive(UpperBodyIdleMotion(robot, 50) 'upper_body_idle_motion')
-        robot.attach_primitive(HeadIdleMotion(robot, 50) 'head_idle_motion')
+        robot.attach_primitive(UpperBodyIdleMotion(robot, 50), 'upper_body_idle_motion')
+        robot.attach_primitive(HeadIdleMotion(robot, 50), 'head_idle_motion')
 
         # Interaction primitives
         robot.attach_primitive(ArmsTurnCompliant(robot, 50), 'arms_turn_compliant')

@@ -6,11 +6,12 @@ from pypot.primitive import LoopPrimitive
 
 class ArmsTurnCompliant(LoopPrimitive):
     """ Automatically turns the arms compliant when a force is applied. """
-    def setup():
+    def setup(self):
         for m in self.robot.arms:
             m.compliant = False
             m.torque_limit = 20
 
+        freq = 1. / self.period
         self.l_arm_torque = deque([0], 0.2 * freq)
         self.r_arm_torque = deque([0], 0.2 * freq)
 
@@ -19,7 +20,7 @@ class ArmsTurnCompliant(LoopPrimitive):
             recent_arm_torques = getattr(self, '{}_arm_torque'.format(side))
             motors = getattr(self.robot, '{}_arm'.format(side))
 
-            recent_arm_torques.append(max[abs(m.present_load) for m in motors])
+            recent_arm_torques.append(max([abs(m.present_load) for m in motors]))
 
             mt = mean(recent_arm_torques)
 
@@ -36,6 +37,7 @@ class PuppetMaster(LoopPrimitive):
     def setup(self):
         for m in self.robot.arms:
             m.moving_speed = 0.
+            m.torque_limit = 50.
 
         for m in self.robot.l_arm:
             m.compliant = True
