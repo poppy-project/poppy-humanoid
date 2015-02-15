@@ -1,9 +1,8 @@
 Poppy Humanoid
 ===================
+Poppy is an open source platform dedicated to the conception of animated robotic creature.
 
 ![Trunk Assembled](doc/img/poppy-humanoid-github.jpg)
-
-Poppy is an open source platform dedicated to the conception of animated robotic creature.
 
 The first and most advanced creature is the fully 3D printed Poppy Humanoid.
 
@@ -52,6 +51,7 @@ This project is initially a fundamental research project financed by [ERC Grant 
 
 ### More on the project
 
+- [Website](https://www.poppy-project.org)
 - [Twitter](https://twitter.com/poppy_project)
 - [Flickr](flickr.com/photos/poppy-project/)
 - [Vimeo](https://vimeo.com/poppyproject)
