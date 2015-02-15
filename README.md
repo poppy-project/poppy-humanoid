@@ -7,6 +7,8 @@ Poppy is an open source platform dedicated to the conception of animated robotic
 
 The first and most advanced creature is the fully 3D printed Poppy Humanoid.
 
+Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
+
 ## Open Source
 
 All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
