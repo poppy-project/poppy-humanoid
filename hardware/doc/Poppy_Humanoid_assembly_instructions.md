@@ -4,9 +4,9 @@
 
 ## 1- Torso
 
-### [1.1- Trunk assembly](../../torso/doc/5_DoFs_humanoid_spine.md)
-### [1.2- Right arm assembly](../../upper_limbs/doc/right_arm_assembly_instructions.md)
-### [1.3- Left arm assembly](../../upper_limbs/doc/left_arm_assembly_instructions.md)
+### [1.1- Trunk assembly](//github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/5_DoFs_humanoid_spine.md)
+### [1.2- Right arm assembly](//github.com/poppy-project/Poppy-basic-arms/blob/master/doc/right_arm_assembly_instructions.md)
+### [1.3- Left arm assembly](//github.com/poppy-project/Poppy-basic-arms/blob/master/doc/left_arm_assembly_instructions.md)
 
 ### 1.4 Assemble trunk and arms:
 
@@ -45,7 +45,7 @@ Click on the image below to display the video:
 
 
 
-## [2- Legs assembly](../../lower_limbs/doc/legs_assembly_instructions.md)
+## [2- Legs assembly](//github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/legs_assembly_instructions.md)
 
 
 ## 3- Legs/Torso asembly
