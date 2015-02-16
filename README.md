@@ -6,28 +6,54 @@ Poppy is an open source platform dedicated to the conception of animated robotic
 
 The first and most advanced creature is the fully 3D printed Poppy Humanoid.
 
+## Presentation
+
 Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
 
-## Open Source
+### Open Source
 
 All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
 
 
-### Hardware
-
-[![licence](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) **This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).**
-
-
-### Software
-licensed under an open source license [GPL V3](http://www.gnu.org/licenses/gpl.html).
+|   License     |     Hardware    |   Software      |
+| ------------- | :-------------: | :-------------: |
+| title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
+| logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
 
 
-Please keep references to the Poppy project (www.poppy-project.org) and [authors](doc/authors.md) when you use or fork this work.
+**Please keep references to the [Poppy project (www.poppy-project.org)](www.poppy-project.org) and [authors](doc/authors.md) when you use or fork this work.**
 
+
+### 3D Printed
+*TODO*
+
+
+### Fully-Modular
+*TODO*
+
+### Community
+*TODO*
+
+
+
+## Build your own Poppy Humanoid
+
+Building a complete Poppy Humanoid cost $8000-9000 with about 60% for uying the 25 Robotis Dynamixel actuators required. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md)
+
+
+Then the process to assemble a complete Poppy Humanoid takes about 7h for  handyman people. Yet the skills required are very limited and should not be a problem for anyone able to hold a screwdriver.
+
+[![](https://farm9.staticflickr.com/8641/16415558386_8b3ae1c21e_z_d.jpg)](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
+
+The assembly process is fully documented with video tutorials.
+### [Go to the Poppy Humanoid assembly documentation >>](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
 
 ## Support
 You need support ?
 The [Poppy forum](forum.poppy-project.org) is the best (and single) place to ask for help !
+
+## Contribution
+*TODO*
 
 <!-- ## Software
 
