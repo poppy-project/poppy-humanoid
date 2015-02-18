@@ -38,7 +38,7 @@ All the technological development work made in the Poppy project is freely avail
 
 ## Build your own Poppy Humanoid
 
-Building a complete Poppy Humanoid cost $8000-9000 with about 60% for uying the 25 Robotis Dynamixel actuators required. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md)
+Building a complete Poppy Humanoid costs $8000-9000 with about 60% for buying the 25 Robotis Dynamixel actuators required. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md)
 
 
 Then the process to assemble a complete Poppy Humanoid takes about 7h for  handyman people. Yet the skills required are very limited and should not be a problem for anyone able to hold a screwdriver.
