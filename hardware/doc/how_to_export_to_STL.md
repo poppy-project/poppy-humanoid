@@ -48,6 +48,7 @@ If everything goes right, you have now a STL folder including subfolders associa
 ![](img/export_STL_step7.jpg)
 
 For example in the trunk folder:
+
 ![](img/export_STL_step8.jpg)
 
 These files are named as described in the [BOM](BOM.md).
@@ -57,10 +58,10 @@ These files are named as described in the [BOM](BOM.md).
 
 ### Need more support ?
 
-If this tutorial does not work properly on your system, you can either create a new issue in this repository or ask for help our awesome (and handsome) [Discourse forum](forum.poppy-project.org).
+If this tutorial does not work properly on your system, you can either create a new issue in this repository or ask for help our awesome (and handsome) [Discourse forum](//forum.poppy-project.org).
 
 ### Want to contribute ?
 
 We are not expert, we do stuffs that eventually work... If you want to contribute and improve this tutorial or the (ugly) script to extract the correct 3D printed parts, you are very welcomed!
 
-As usually, you can fork this repo, do your changes and create a pull request. You can also come on the [forum](forum.poppy-project.org) and share your ideas!
+As usually, you can fork this repo, do your changes and create a pull request. You can also come on the [forum](//forum.poppy-project.org) and share your ideas!
