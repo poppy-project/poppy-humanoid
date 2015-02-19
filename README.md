@@ -17,8 +17,8 @@ All the technological development work made in the Poppy project is freely avail
 
 |   License     |     Hardware    |   Software      |
 | ------------- | :-------------: | :-------------: |
-| title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
-| logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
+| Title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
+| Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
 
 
 **Please keep references to the [Poppy project (www.poppy-project.org)](www.poppy-project.org) and [authors](doc/authors.md) when you use or fork this work.**
@@ -92,6 +92,7 @@ This project is initially a fundamental research project financed by [ERC Grant 
 ### More on the project
 
 - [Website](https://www.poppy-project.org)
+- [Forum](//forum.poppy-project.org)
 - [Twitter](https://twitter.com/poppy_project)
 - [Flickr](flickr.com/photos/poppy-project/)
 - [Vimeo](https://vimeo.com/poppyproject)
