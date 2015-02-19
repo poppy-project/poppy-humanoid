@@ -5,8 +5,10 @@ from functools import partial
 from poppy.creatures import AbstractPoppyCreature
 
 from .primitives.safe import LimitTorque
-from .primitives.posture import StandPosition, SitPosition
 from .primitives.dance import SimpleBodyBeatMotion
+from .primitives.posture import StandPosition, SitPosition
+from .primitives.idle import UpperBodyIdleMotion, HeadIdleMotion
+from .primitives.interaction import ArmsTurnCompliant, PuppetMaster
 
 
 class PoppyHumanoid(AbstractPoppyCreature):
@@ -22,10 +24,21 @@ class PoppyHumanoid(AbstractPoppyCreature):
 
         robot.attach_primitive(StandPosition(robot), 'stand_position')
         robot.attach_primitive(SitPosition(robot), 'sit_position')
+
         robot.attach_primitive(LimitTorque(robot), 'limit_torque')
+
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
 
         # robot.limit_torque.start()
+
+        # Idle primitives
+        robot.attach_primitive(UpperBodyIdleMotion(robot, 50), 'upper_body_idle_motion')
+        robot.attach_primitive(HeadIdleMotion(robot, 50), 'head_idle_motion')
+
+        # Interaction primitives
+        robot.attach_primitive(ArmsTurnCompliant(robot, 50), 'arms_turn_compliant')
+        robot.attach_primitive(PuppetMaster(robot, 50), 'arms_copy_motion')
+
     @classmethod
     def vrep_hack(cls, robot):
         # fix vrep orientation bug

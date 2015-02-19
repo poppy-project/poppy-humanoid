@@ -55,16 +55,16 @@ class HeadIdleMotion(pypot.primitive.LoopPrimitive):
         for m in self.robot.head:
             m.compliant = False
 
-        [head_sinus.start() for head_sinus in self.head]
+        [hs.start() for hs in self.head_sinus]
 
     def pause(self):
-        [head_sinus.pause() for head_sinus in self.head]
+        [hs.pause() for hs in self.head_sinus]
 
     def resume(self):
-        [head_sinus.resume() for head_sinus in self.head]
+        [hs.resume() for hs in self.head_sinus]
 
     def stop(self):
-        [head_sinus.stop() for head_sinus in self.head]
+        [hs.stop() for hs in self.head_sinus]
         pypot.primitive.LoopPrimitive.stop(self)
 
     def update(self):
