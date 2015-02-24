@@ -4,16 +4,15 @@ import pypot.primitive
 
 
 class LimitTorque(pypot.primitive.LoopPrimitive):
-    def __init__(self, poppy_humanoid, freq=20, max_error=10., torque_min=20., torque_max=95.):
+    def __init__(self, robot, freq=20, max_error=10., torque_min=20., torque_max=95.):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_humanoid, freq)
 
-        self.poppy_humanoid = poppy_humanoid
         self._max_error = max_error
         self.torque_min = torque_min
         self.torque_max = torque_max
 
     def update(self):
-        for m in self.poppy_humanoid.motors:
+        for m in self.robot.motors:
             self.adjust_torque(m)
 
     def adjust_torque(self, motor):
@@ -27,7 +26,7 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
             motor.torque_limit = self.torque_min + dist / self._max_error * (self.torque_max - self.torque_min)
 
     def teardown(self):
-        for m in self.poppy_humanoid.motors:
+        for m in self.robot.motors:
             m.torque_limit = self.torque_max
 
     @property
