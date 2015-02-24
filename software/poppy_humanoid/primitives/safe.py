@@ -11,8 +11,16 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
         self.torque_min = torque_min
         self.torque_max = torque_max
 
-    def update(self):
+    def setup(self):
+        self.initial_torque_limit = []
+
         for m in self.robot.motors:
+            self.initial_torque_limit.append(m.torque_limit)
+
+        self.active_motors = self.robot.motors
+
+    def update(self):
+        for m in self.active_motors:
             self.adjust_torque(m)
 
     def adjust_torque(self, motor):
@@ -26,8 +34,8 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
             motor.torque_limit = self.torque_min + dist / self._max_error * (self.torque_max - self.torque_min)
 
     def teardown(self):
-        for m in self.robot.motors:
-            m.torque_limit = self.torque_max
+        for m, i in enumerate(self.robot.motors):
+            m.torque_limit = self.initial_torque_limit[i]
 
     @property
     def max_error(self):
