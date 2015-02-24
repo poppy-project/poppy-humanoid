@@ -5,7 +5,7 @@ import pypot.primitive
 
 class LimitTorque(pypot.primitive.LoopPrimitive):
     def __init__(self, robot, freq=20, max_error=10., torque_min=20., torque_max=95.):
-        pypot.primitive.LoopPrimitive.__init__(self, poppy_humanoid, freq)
+        pypot.primitive.LoopPrimitive.__init__(self, robot, freq)
 
         self._max_error = max_error
         self.torque_min = torque_min
