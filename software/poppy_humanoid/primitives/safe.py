@@ -14,6 +14,7 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
     def setup(self):
         self.initial_torque_limit = []
 
+        # Using a dictionnary may be a better solution so we can easily retrieve the initial torque value.
         for m in self.robot.motors:
             self.initial_torque_limit.append(m.torque_limit)
 
@@ -38,6 +39,14 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
             m.torque_limit = self.initial_torque_limit[i]
 
     @property
+    def change_watched_motors(self):
+        return self.active_motors
+
+    @change_watched_motors.setter
+    def change_watched_motors(self, watched_motors):
+        self.active_motors = map(self.get_mockup_motor, watched_motors)
+
+    @property
     def max_error(self):
         return self._max_error
 
@@ -46,3 +55,20 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
         if new_error <= 0:
             raise ValueError('The max_error parameter must be strictly positive!')
         self._max_error = float(new_error)
+
+    # TODO
+    @property
+    def add_watched_motors(self):
+        raise NotImplementedError('TODO :)')
+
+    @add_watched_motors.setter
+    def add_watched_motors(self, added_motors):
+        raise NotImplementedError('TODO :)')
+
+    @property
+    def remove_watched_motors(self):
+        raise NotImplementedError('TODO :)')
+
+    @remove_watched_motors.setter
+    def remove_watched_motors(self, suppressed_motors):
+        raise NotImplementedError('TODO :)')
