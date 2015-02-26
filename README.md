@@ -54,8 +54,13 @@ The assembly process is fully documented with video tutorials.
 You need support ?
 The [Poppy forum](forum.poppy-project.org) is the best (and single) place to ask for help !
 
+You can in particular check for the [Poppy Humanoid category](https://forum.poppy-project.org/c/poppy-creatures/humanoid).
+
 ## Contribution
-The Poppy project involves a very large scope of disciplines: 
+
+If you are interrested by contribuing to the Poppy project, you can **take a look at [open issues](https://github.com/poppy-project/poppy-humanoid/issues) and [call for contributions](https://forum.poppy-project.org/tags/call-for-contributions)**.
+
+Morevover, the Poppy project involves a very large scope of disciplines: 
  - Engineering fields such as computer science, mechanics, electronics, machine learning... 
  - Humanities such as cognitive science, psychology...
  - Life science such as biology, biomechanics,...
