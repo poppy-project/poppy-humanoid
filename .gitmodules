@@ -4,7 +4,7 @@
 	branch = master
 [submodule "hardware/robotis_library"]
 	path = hardware/robotis_library
-	url = https://github.com/matthieu-lapeyre/Robotis-library.git
+	url=https://github.com/poppy-project/Robotis-library.git
 	branch = master
 [submodule "hardware/torso"]
 	path = hardware/torso
