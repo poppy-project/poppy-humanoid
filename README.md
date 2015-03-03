@@ -21,7 +21,7 @@ All the technological development work made in the Poppy project is freely avail
 | Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
 
 
-**Please keep references to the [Poppy project (www.poppy-project.org)](www.poppy-project.org) and [authors](doc/authors.md) when you use or fork this work.**
+**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](doc/authors.md) when you use or fork this work.**
 
 
 ### 3D Printed
@@ -52,7 +52,7 @@ The assembly process is fully documented with video tutorials.
 
 ## Support
 You need support ?
-The [Poppy forum](forum.poppy-project.org) is the best (and single) place to ask for help !
+The [Poppy forum](https://forum.poppy-project.org) is the best (and single) place to ask for help !
 
 You can in particular check for the [Poppy Humanoid category](https://forum.poppy-project.org/c/poppy-creatures/humanoid).
 
@@ -70,7 +70,7 @@ Morevover, the Poppy project involves a very large scope of disciplines:
 
 So there are many ways to contribute to this project and you are very welcome to do it.
 
-Maybe the first step is to become a member of the community on the [poppy forum](//forum.poppy-project.org).  The forum is the very central place to exchange with users and contributors. You can freely come and talk about your project or ideas with your prefered language.
+Maybe the first step is to become a member of the community on the [poppy forum](https://forum.poppy-project.org).  The forum is the very central place to exchange with users and contributors. You can freely come and talk about your project or ideas with your prefered language.
 
 For github ninja, you can of course fork this repository and open pull requests to propose your changes, or create issues to notify a problem.
 
@@ -88,8 +88,8 @@ It is -->
 
 ## The Poppy project history
 
-The Poppy project is born in 2012 in the [Flowers laboratory](flowers.inria.fr) at [Inria Bordeaux Sud-Ouest](http://www.inria.fr/en/centre/bordeaux).
-It was initiated during [Matthieu Lapeyre](github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by Matthieu Lapeyre (mechanics & design), [Pierre Rouanet](github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
+The Poppy project is born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](http://www.inria.fr/en/centre/bordeaux).
+It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
 
 This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks.
 
@@ -97,7 +97,7 @@ This project is initially a fundamental research project financed by [ERC Grant 
 ### More on the project
 
 - [Website](https://www.poppy-project.org)
-- [Forum](//forum.poppy-project.org)
+- [Forum](https://forum.poppy-project.org)
 - [Twitter](https://twitter.com/poppy_project)
-- [Flickr](flickr.com/photos/poppy-project/)
+- [Flickr](https://www.flickr.com/photos/poppy-project)
 - [Vimeo](https://vimeo.com/poppyproject)
