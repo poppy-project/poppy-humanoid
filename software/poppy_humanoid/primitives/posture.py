@@ -44,10 +44,10 @@ class StandPosition(InitRobot):
                                   'r_shoulder_y': 10,
                                   'l_elbow_y': -20,
                                   'r_elbow_y': -20,
-                                  'l_ankle_y': -6,
+                                  'l_ankle_y': -7,
                                   'r_ankle_y': -6,
                                   'abs_y': -2,
-                                  'head_y': 0,
+                                  'head_y': 1,
                                   'head_z': 0},
                                  3,
                                  wait=True)
