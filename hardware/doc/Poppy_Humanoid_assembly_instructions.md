@@ -4,7 +4,7 @@
 
 ## 1- Torso
 
-### [1.1- Trunk assembly](//github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/5_DoFs_humanoid_spine.md)
+### [1.1- Trunk assembly](//github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/5_DoFs_humanoid_spine.md)
 ### [1.2- Right arm assembly](//github.com/poppy-project/Poppy-basic-arms/blob/master/doc/right_arm_assembly_instructions.md)
 ### [1.3- Left arm assembly](//github.com/poppy-project/Poppy-basic-arms/blob/master/doc/left_arm_assembly_instructions.md)
 
