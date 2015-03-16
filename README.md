@@ -48,6 +48,10 @@ Then the process to assemble a complete Poppy Humanoid takes about 7h for  handy
 The assembly process is fully documented with video tutorials.
 ### [Go to the Poppy Humanoid assembly documentation >>](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
 
+### Install the software tools locally
+If you want to install the software tools locally and not use the embedded board to control the Robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is via pip). 
+
+For more information, you can refer to this [notebook tutorial](http://nbviewer.ipython.org/github/poppy-project/pypot/blob/master/samples/notebooks/Controlling%20a%20Poppy%20humanoid%20in%20V-REP%20using%20pypot.ipynb).
 
 
 ## Support
