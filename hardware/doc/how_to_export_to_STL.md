@@ -32,16 +32,14 @@ Yet, if you want to regenerate these files for any reasons (e.g. changes on the 
 ## Step 2 - extract the 3D printed parts from the exported files
 
 The export should have generated a bunch of STL files (near 200) but most of them are useless and unfortunately the naming made difficult to recognize which part should be kept or not.
-![](img/export_STL_step5.jpg)
+
+![](img/export_STL_step6.jpg)
 
 To overcome this issue, we have written a quick and dirty python script to extract only the parts to be 3D printed and rename them appropriately.
 
 *If you use windows, please check if you have python, if not you can download the version 2.7 [here](https://www.python.org/downloads/).*
 
-On windows, double click on the `extract_3D_printable_STL_parts.py`
-![](img/export_STL_step6.jpg)
-
-A black terminal windows should pop-up and desappears quickly.
+On windows, double click on the `extract_3D_printable_STL_parts.py`, a black terminal windows should pop-up and desappears quickly.
 
 If everything goes right, you have now a STL folder including subfolders associated with each Poppy Humanoid modules (i.e. head, trunk, upper_limbs and lower_limbs):
 

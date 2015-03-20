@@ -2,66 +2,74 @@
 
 ## 3D printing
 
-Last full release:  https://github.com/poppy-project/Poppy-Humanoid/releases/download/1.0-pre-release/3D_printed_part_STL.zip
+Last full release:  https://github.com/poppy-project/Poppy-Humanoid/releases/
 
 ### lower_limbs:
-- 2x leg *(polyamide poli blanc)*
-- 1x thigh_right *(polyamide poli blanc)*
-- 1x thigh_left *(polyamide poli blanc)*
-- 1x hip_right *(polyamide poli blanc)*
-- 1x hip_left *(polyamide poli blanc)*
-- 1x pelvis *(polyamide poli blanc)*
-- 1x simple_foot_left *(polyamide poli blanc)*
-- 1x simple_foot_right *(polyamide poli blanc)*
-- 2 x hip_z_to_hip_y-connector *(polyamide poli blanc)*
+- 2x leg *(white polished polyamid)*
+- 1x thigh_right *(white polished polyamid)*
+- 1x thigh_left *(white polished polyamid)*
+- 1x hip_right *(white polished polyamid)*
+- 1x hip_left *(white polished polyamid)*
+- 1x pelvis *(white polished polyamid)*
+- 1x simple_foot_left *(white polished polyamid)*
+- 1x simple_foot_right *(white polished polyamid)*
+- 2 x hip_z_to_hip_y-connector *(white polished polyamid)*
 
 ### torso
-- 2x double_rotation_MX64_link *(polyamide blanc)*
-- 1x i101-Set_to_MX64_link *(polyamide blanc)*
-- 1x abdomen *(polyamide poli blanc)*
-- 1x spine *(polyamide poli blanc)*
-- 2x double_rotation_MX28_link *(polyamide blanc)*
-- 1x i101-Set_to_MX28_link *(polyamide blanc)*
-- 1x chest *(polyamide poli blanc)*
+- 2x double_rotation_MX64_link *(white polyamid)*
+- 1x i101-Set_to_MX64_link *(white polyamid)*
+- 1x abdomen *(white polished polyamid)*
+- 1x spine *(white polished polyamid)*
+- 2x double_rotation_MX28_link *(white polyamid)*
+- 1x i101-Set_to_MX28_link *(white polyamid)*
+- 1x chest *(white polished polyamid)*
 
 ### upper_limbs
-- 1x shoulder_right *(polyamide poli blanc)*
-- 1x shoulder_left *(polyamide poli blanc)*
-- 2x arm_connector *(polyamide poli blanc)*
-- 2x upper_arm *(polyamide poli blanc)*
-- 1x forearm_left *(polyamide poli blanc)*
-- 1x forearm_right *(polyamide poli blanc)*
-- 1x hand_right *(polyamide poli blanc)*
-- 1x hand_left *(polyamide poli blanc)*
+- 1x shoulder_right *(white polished polyamid)*
+- 1x shoulder_left *(white polished polyamid)*
+- 2x arm_connector *(white polished polyamid)*
+- 2x upper_arm *(white polished polyamid)*
+- 1x forearm_left *(white polished polyamid)*
+- 1x forearm_right *(white polished polyamid)*
+- 1x hand_right *(white polished polyamid)*
+- 1x hand_left *(white polished polyamid)*
 
 ### head
-- 1x neck  *(polyamide poli blanc)*
-- 1x head-back *(polyamide poli blanc)*
-- 1x head-face *(polyamide poli blanc)*
-- 1x support_camera *(polyamide blanc)*
-- 1x screen (resine transparent)
-- 1x hide-screen (polyamide noir)
-- 1x speaker_left (polyamide noir)
-- 1x speaker_right (polyamide noir)
-- 1x fake_manga_screen
+- 1x neck  *(white polished polyamid)*
+- 1x head-back *(white polished polyamid)*
+- 1x head-face *(white polished polyamid)*
+- 1x support_camera *(white polyamid)*
+- 1x screen *(resine transparent)*
+- 1x hide-screen *(black polyamid)*
+- 1x speaker_left *(black polyamid)*
+- 1x speaker_right *(black polyamid)*
+- 1x fake_manga_screen *(black polyamid)*
 
 
 ## Electronics
 
-### Control
+### Embedded control
 - 2x USB2AX
 - [Hardkernel Odroid U3][1]
 - [8GB eMMC Module U Linux][2]
+- [Cooling Fan U3][4] (Optionnal)
+- USB hub: [here][7] ou [here][8]
+
+### Power Supply
 - [DC Plug Cable Assembly 2.5mm][3]
-- [Cooling Fan U3][4]
-- [5V/2A Power Supply][5]
-- [Convertisseur 5V][6]
-- hub USB: [ici][7] ou [ici][8]
+- [5V DC convertor][6]
 
 ### Audio/video
-- [Camera Videw][9] **version avec FOV 170°!!** + cable USB
-- 2x [haut-parleur][10]
+- 2x [speakers][10]
 - [ampli stereo][11]
+
+### Communication
+- [Nano Wifi Dongle](http://www.amazon.fr/gp/product/B003MTTJOY)
+
+### Sensors
+- [Camera Videw][9] **with FOV 120° or 170°!!** + USB cable
+- [Sparkfun Razor 9DoF IMU](https://www.sparkfun.com/products/10736) (Optionnal)
+- [Manga Screen](https://www.kickstarter.com/projects/1924187374/manga-screen-multi-touch-43-lcd) (Optionnal)
 
 
 ----------
