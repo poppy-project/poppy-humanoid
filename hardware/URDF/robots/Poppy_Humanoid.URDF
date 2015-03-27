@@ -18,7 +18,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/pelvis.STL"></mesh>
+				<mesh filename="package://meshes/pelvis_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -40,7 +40,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_hip.STL"></mesh>
+				<mesh filename="package://meshes/r_hip_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -62,7 +62,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_hip_motor.STL"></mesh>
+				<mesh filename="package://meshes/r_hip_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -84,11 +84,11 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_thigh.STL"></mesh>
+				<mesh filename="package://meshes/r_thigh_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
-	<link name="r_leg">
+	<link name="r_shin">
 		<inertial>
 			<origin xyz="-0.00150809388022299 -0.137041584549603 0.0228988594303728" rpy="0 0 0"></origin>
 			<mass value="0.115582219792398"></mass>
@@ -97,7 +97,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_leg.STL"></mesh>
+				<mesh filename="package://meshes/r_shin.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -106,7 +106,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_leg.STL"></mesh>
+				<mesh filename="package://meshes/r_shin_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -128,7 +128,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_foot.STL"></mesh>
+				<mesh filename="package://meshes/r_foot_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -150,7 +150,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_hip.STL"></mesh>
+				<mesh filename="package://meshes/l_hip_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -172,7 +172,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_hip_motor.STL"></mesh>
+				<mesh filename="package://meshes/l_hip_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -194,11 +194,11 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_thigh.STL"></mesh>
+				<mesh filename="package://meshes/l_thigh_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
-	<link name="l_leg">
+	<link name="l_shin">
 		<inertial>
 			<origin xyz="-0.00150809145543363 -0.137041584769234 -0.0229033576380381" rpy="0 0 0"></origin>
 			<mass value="0.11558221959692"></mass>
@@ -207,7 +207,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_leg.STL"></mesh>
+				<mesh filename="package://meshes/l_shin.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -216,7 +216,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_leg.STL"></mesh>
+				<mesh filename="package://meshes/l_shin_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -238,7 +238,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_foot.STL"></mesh>
+				<mesh filename="package://meshes/l_foot_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -260,7 +260,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/abs_motors.STL"></mesh>
+				<mesh filename="package://meshes/abs_motors_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -282,7 +282,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/abdomen.STL"></mesh>
+				<mesh filename="package://meshes/abdomen_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -304,7 +304,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/spine.STL"></mesh>
+				<mesh filename="package://meshes/spine_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -326,7 +326,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/bust_motors.STL"></mesh>
+				<mesh filename="package://meshes/bust_motors_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -348,7 +348,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/chest.STL"></mesh>
+				<mesh filename="package://meshes/chest_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -370,7 +370,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/neck.STL"></mesh>
+				<mesh filename="package://meshes/neck_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -392,7 +392,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/head.STL"></mesh>
+				<mesh filename="package://meshes/head_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -414,7 +414,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_shoulder.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -436,11 +436,11 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_shoulder_motor.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
-	<link name="upper_arm">
+	<link name="l_upper_arm">
 		<inertial>
 			<origin xyz="3.30518731642866E-05 0.0628256242231928 -0.0106376043749558" rpy="0 0 0"></origin>
 			<mass value="0.168140859572398"></mass>
@@ -449,7 +449,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/upper_arm.STL"></mesh>
+				<mesh filename="package://meshes/l_upper_arm.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -458,7 +458,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/upper_arm.STL"></mesh>
+				<mesh filename="package://meshes/l_upper_arm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -480,7 +480,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_forearm.STL"></mesh>
+				<mesh filename="package://meshes/l_forearm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -502,7 +502,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_shoulder.STL"></mesh>
+				<mesh filename="package://meshes/r_shoulder_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -524,7 +524,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_shoulder_motor.STL"></mesh>
+				<mesh filename="package://meshes/r_shoulder_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -546,7 +546,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_upper_arm.STL"></mesh>
+				<mesh filename="package://meshes/r_upper_arm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -568,7 +568,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_forearm.STL"></mesh>
+				<mesh filename="package://meshes/r_forearm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
@@ -596,13 +596,13 @@
 	<joint name="r_knee_y" type="revolute">
 		<origin xyz="0 -0.182 0" rpy="0 1.5707963267949 0"></origin>
 		<parent link="r_thigh"></parent>
-		<child link="r_leg"></child>
+		<child link="r_shin"></child>
 		<axis xyz="0 0 -1"></axis>
 		<limit effort="3.1" lower="-2.09439510239" upper="0.0349065850399" velocity="7.0"></limit>
 	</joint>
 	<joint name="r_ankle_y" type="revolute">
 		<origin xyz="0 -0.18 0" rpy="0 -1.5708 0"></origin>
-		<parent link="r_leg"></parent>
+		<parent link="r_shin"></parent>
 		<child link="r_foot"></child>
 		<axis xyz="-1 0 0"></axis>
 		<limit effort="3.1" lower="-1.2217304764" upper="0.436332312999" velocity="7.0"></limit>
@@ -631,13 +631,13 @@
 	<joint name="l_knee_y" type="revolute">
 		<origin xyz="0 -0.182 0" rpy="0 1.5707963267949 0"></origin>
 		<parent link="l_thigh"></parent>
-		<child link="l_leg"></child>
+		<child link="l_shin"></child>
 		<axis xyz="0 0 -1"></axis>
 		<limit effort="3.1" lower="-0.0349065850399" upper="2.09439510239" velocity="7.0"></limit>
 	</joint>
 	<joint name="l_ankle_y" type="revolute">
 		<origin xyz="0 -0.18 0" rpy="0 -1.5708 0"></origin>
-		<parent link="l_leg"></parent>
+		<parent link="l_shin"></parent>
 		<child link="l_foot"></child>
 		<axis xyz="1 0 0"></axis>
 		<limit effort="3.1" lower="-0.610865238198" upper="1.2217304764" velocity="7.0"></limit>
@@ -708,13 +708,13 @@
 	<joint name="l_arm_z" type="revolute">
 		<origin xyz="0 0.03625 0.0185000000000001" rpy="0 0 0"></origin>
 		<parent link="l_shoulder_motor"></parent>
-		<child link="upper_arm"></child>
+		<child link="l_upper_arm"></child>
 		<axis xyz="0 1 0"></axis>
 		<limit effort="3.1" lower="-1.57079632679" upper="1.57079632679" velocity="7.0"></limit>
 	</joint>
 	<joint name="l_elbow_y" type="revolute">
 		<origin xyz="0 0.11175 -0.00999999999999998" rpy="0 0 0"></origin>
-		<parent link="upper_arm"></parent>
+		<parent link="l_upper_arm"></parent>
 		<child link="l_forearm"></child>
 		<axis xyz="1 0 0"></axis>
 		<limit effort="3.1" lower="-2.44346095279" upper="0.0" velocity="7.0"></limit>
