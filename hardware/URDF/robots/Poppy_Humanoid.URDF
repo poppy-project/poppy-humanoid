@@ -9,7 +9,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/pelvis.STL"></mesh>
+				<mesh filename="package://meshes/pelvis_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -31,7 +31,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_hip.STL"></mesh>
+				<mesh filename="package://meshes/r_hip_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -53,7 +53,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_hip_motor.STL"></mesh>
+				<mesh filename="package://meshes/r_hip_motor_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -75,7 +75,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_thigh.STL"></mesh>
+				<mesh filename="package://meshes/r_thigh_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -97,7 +97,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_shin.STL"></mesh>
+				<mesh filename="package://meshes/r_shin_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -119,7 +119,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_foot.STL"></mesh>
+				<mesh filename="package://meshes/r_foot_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -141,7 +141,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_hip.STL"></mesh>
+				<mesh filename="package://meshes/l_hip_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -163,7 +163,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_hip_motor.STL"></mesh>
+				<mesh filename="package://meshes/l_hip_motor_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -185,7 +185,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_thigh.STL"></mesh>
+				<mesh filename="package://meshes/l_thigh_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -207,7 +207,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_shin.STL"></mesh>
+				<mesh filename="package://meshes/l_shin_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -229,7 +229,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_foot.STL"></mesh>
+				<mesh filename="package://meshes/l_foot_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -251,7 +251,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/abs_motors.STL"></mesh>
+				<mesh filename="package://meshes/abs_motors_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -273,7 +273,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/abdomen.STL"></mesh>
+				<mesh filename="package://meshes/abdomen_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -295,7 +295,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/spine.STL"></mesh>
+				<mesh filename="package://meshes/spine_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -317,7 +317,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/bust_motors.STL"></mesh>
+				<mesh filename="package://meshes/bust_motors_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -339,7 +339,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/chest.STL"></mesh>
+				<mesh filename="package://meshes/chest_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -361,7 +361,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/neck.STL"></mesh>
+				<mesh filename="package://meshes/neck_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -383,7 +383,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/head.STL"></mesh>
+				<mesh filename="package://meshes/head_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -405,7 +405,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_shoulder.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -427,7 +427,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_shoulder_motor.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_motor_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -449,7 +449,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_upper_arm.STL"></mesh>
+				<mesh filename="package://meshes/l_upper_arm_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -471,7 +471,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/l_forearm.STL"></mesh>
+				<mesh filename="package://meshes/l_forearm_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -493,7 +493,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_shoulder.STL"></mesh>
+				<mesh filename="package://meshes/r_shoulder_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -515,7 +515,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_shoulder_motor.STL"></mesh>
+				<mesh filename="package://meshes/r_shoulder_motor_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -537,7 +537,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_upper_arm.STL"></mesh>
+				<mesh filename="package://meshes/r_upper_arm_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -559,7 +559,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://meshes/r_forearm.STL"></mesh>
+				<mesh filename="package://meshes/r_forearm_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
