@@ -77,7 +77,7 @@ Last full release:  https://github.com/poppy-project/Poppy-Humanoid/releases/
 
 ## Robotis
 
-### Dynamixel
+### Actuators Dynamixel
  - 19 x MX-28AT
  -  4 x MX-64AT
  -  2 x AX-12A
