@@ -6,7 +6,7 @@ if (sim_call_type==sim_childscriptcall_initialization) then
 	handle=simGetObjectHandle('chest_respondable')
 	t0 = simGetSimulationTime()
 	
-	instructions might also be useful: simGetNameSuffix and simSetNameSuffix
+	
 
 end
 
