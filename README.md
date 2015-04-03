@@ -105,3 +105,4 @@ This project is initially a fundamental research project financed by [ERC Grant 
 - [Twitter](https://twitter.com/poppy_project)
 - [Flickr](https://www.flickr.com/photos/poppy-project)
 - [Vimeo](https://vimeo.com/poppyproject)
+- [Thingiverse](http://www.thingiverse.com/poppy_project/)
