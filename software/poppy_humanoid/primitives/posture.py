@@ -64,10 +64,10 @@ class StandPosition(InitRobot):
 
 class SitPosition(pypot.primitive.Primitive):
     def run(self):
-        self.robot.goto_position({'l_hip_y': -25,
-                                  'r_hip_y': -25,
-                                  'l_knee_y': 125,
-                                  'r_knee_y': 125,
+        self.robot.goto_position({'l_hip_y': -39,
+                                  'r_hip_y': -39,
+                                  'l_knee_y': 134,
+                                  'r_knee_y': 134,
                                   'abs_x': 0,
                                   'abs_y': 3,
                                   'abs_z': 0,
