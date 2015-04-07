@@ -96,7 +96,7 @@
       "type": "MX-28",
       "id": 24,
       "angle_limit": [
-        -120,
+        -134,
         2
       ],
       "orientation": "indirect"
@@ -297,7 +297,7 @@
       "id": 14,
       "angle_limit": [
         -2,
-        120
+        134
       ],
       "orientation": "direct"
     },
