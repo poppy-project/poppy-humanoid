@@ -1,5 +1,6 @@
 from __future__ import division
 
+import os
 import pypot.primitive
 
 
@@ -72,3 +73,37 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
     @remove_watched_motors.setter
     def remove_watched_motors(self, suppressed_motors):
         raise NotImplementedError('TODO :)')
+
+
+class TemperatureMonitor(pypot.primitive.LoopPrimitive):
+    def __init__(self, robot, freq=0.5, temp_limit=50, player='aplay', sound=None):
+        pypot.primitive.LoopPrimitive.__init__(self, robot, freq)
+
+        self.temp_limit = temp_limit
+        self.player = player
+        self.notif_sound_file = sound
+
+    def setup(self):
+        pass
+
+    def update(self):
+        self.check_temperature()
+
+    def teardown(self):
+        pass
+
+    def check_temperature(self):
+        motor_list = []
+
+        for m in self.robot.motors:
+            if m.present_temperature > self.temp_limit:
+                motor_list.append(m)
+
+        if len(motor_list) > 0:
+            self.raise_problem(motor_list)
+
+    def raise_problem(self, motor_list):
+        os.system(self.player + self.notif_sound_file)
+
+        for m in motor_list:
+            print m.name, ' overheating:', m.present_temperature

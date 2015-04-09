@@ -1,10 +1,12 @@
+import os
+import sys
 import numpy
 
 from functools import partial
 
 from poppy.creatures import AbstractPoppyCreature
 
-from .primitives.safe import LimitTorque
+from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
 from .primitives.posture import StandPosition, SitPosition
 from .primitives.idle import UpperBodyIdleMotion, HeadIdleMotion
@@ -26,14 +28,21 @@ class PoppyHumanoid(AbstractPoppyCreature):
             m.compliant_behavior = 'safe'
 
         # Attach default primitives:
+
+        # basic primitives:
         robot.attach_primitive(StandPosition(robot), 'stand_position')
         robot.attach_primitive(SitPosition(robot), 'sit_position')
 
+        # Safe primitives:
         robot.attach_primitive(LimitTorque(robot), 'limit_torque')
-
-        robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
-
+        sound_file = sys.path.append(os.path.dirname(os.path.abspath(__file__)),
+                                     'media', 'sounds', 'error.wav')
+        robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
+        robot.temperature_monitoring.start()
         # robot.limit_torque.start()
+
+        # Dance primitive:
+        robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
 
         # Idle primitives
         robot.attach_primitive(UpperBodyIdleMotion(robot, 50), 'upper_body_idle_motion')
