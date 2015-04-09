@@ -76,12 +76,19 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
 
 
 class TemperatureMonitor(pypot.primitive.LoopPrimitive):
+    '''
+        This primitive raises an alert by playing a sound when the temperature
+        of one motor reaches the "temp_limit".
+
+        On MacOS "Darwin" you can use "afplay" for player
+        On windows vista+, you can maybe use "start wmplayer"
+        '''
     def __init__(self, robot, freq=0.5, temp_limit=50, player='aplay', sound=None):
         pypot.primitive.LoopPrimitive.__init__(self, robot, freq)
 
         self.temp_limit = temp_limit
         self.player = player
-        self.notif_sound_file = sound
+        self.sound = sound
 
     def setup(self):
         pass
@@ -103,7 +110,7 @@ class TemperatureMonitor(pypot.primitive.LoopPrimitive):
             self.raise_problem(motor_list)
 
     def raise_problem(self, motor_list):
-        os.system(self.player + self.notif_sound_file)
+        os.system(self.player + ' ' + self.sound)
 
         for m in motor_list:
             print m.name, ' overheating:', m.present_temperature

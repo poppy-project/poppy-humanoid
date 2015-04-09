@@ -35,11 +35,12 @@ class PoppyHumanoid(AbstractPoppyCreature):
 
         # Safe primitives:
         robot.attach_primitive(LimitTorque(robot), 'limit_torque')
-        sound_file = sys.path.append(os.path.dirname(os.path.abspath(__file__)),
-                                     'media', 'sounds', 'error.wav')
+        # robot.limit_torque.start()
+
+        sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                  'media', 'sounds', 'error.wav')
         robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
         robot.temperature_monitoring.start()
-        # robot.limit_torque.start()
 
         # Dance primitive:
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
