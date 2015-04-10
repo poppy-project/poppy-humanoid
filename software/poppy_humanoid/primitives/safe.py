@@ -111,8 +111,7 @@ class TemperatureMonitor(pypot.primitive.LoopPrimitive):
             self.raise_problem(motor_list)
 
     def raise_problem(self, motor_list):
-        subprocess.call([self.player, self.sound], shell=True)
+        subprocess.call([self.player, self.sound])
 
         for m in motor_list:
             print('{} overheating: {}'.format(m.name, m.present_temperature))
- 
