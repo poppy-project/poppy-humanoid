@@ -21,6 +21,7 @@
 				<mesh filename="package://meshes/pelvis_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.18508</mass>
 	</link>
 	<link name="r_hip">
 		<inertial>
@@ -43,6 +44,7 @@
 				<mesh filename="package://meshes/r_hip_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.08433</mass>
 	</link>
 	<link name="r_hip_motor">
 		<inertial>
@@ -65,6 +67,7 @@
 				<mesh filename="package://meshes/r_hip_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.13848</mass>
 	</link>
 	<link name="r_thigh">
 		<inertial>
@@ -87,6 +90,7 @@
 				<mesh filename="package://meshes/r_thigh_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.12066</mass>
 	</link>
 	<link name="r_shin">
 		<inertial>
@@ -109,6 +113,7 @@
 				<mesh filename="package://meshes/r_shin_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.11169</mass>
 	</link>
 	<link name="r_foot">
 		<inertial>
@@ -131,6 +136,7 @@
 				<mesh filename="package://meshes/r_foot_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.04674</mass>
 	</link>
 	<link name="l_hip">
 		<inertial>
@@ -153,6 +159,7 @@
 				<mesh filename="package://meshes/l_hip_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.08434</mass>
 	</link>
 	<link name="l_hip_motor">
 		<inertial>
@@ -175,6 +182,7 @@
 				<mesh filename="package://meshes/l_hip_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.13848</mass>
 	</link>
 	<link name="l_thigh">
 		<inertial>
@@ -197,6 +205,7 @@
 				<mesh filename="package://meshes/l_thigh_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.12152</mass>
 	</link>
 	<link name="l_shin">
 		<inertial>
@@ -219,6 +228,7 @@
 				<mesh filename="package://meshes/l_shin_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.11169</mass>
 	</link>
 	<link name="l_foot">
 		<inertial>
@@ -241,6 +251,7 @@
 				<mesh filename="package://meshes/l_foot_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.04678</mass>
 	</link>
 	<link name="abs_motors">
 		<inertial>
@@ -263,6 +274,7 @@
 				<mesh filename="package://meshes/abs_motors_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.27838</mass>
 	</link>
 	<link name="abdomen">
 		<inertial>
@@ -285,6 +297,7 @@
 				<mesh filename="package://meshes/abdomen_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.03839</mass>
 	</link>
 	<link name="spine">
 		<inertial>
@@ -307,6 +320,7 @@
 				<mesh filename="package://meshes/spine_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.09264</mass>
 	</link>
 	<link name="bust_motors">
 		<inertial>
@@ -329,6 +343,7 @@
 				<mesh filename="package://meshes/bust_motors_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.15889</mass>
 	</link>
 	<link name="chest">
 		<inertial>
@@ -351,6 +366,7 @@
 				<mesh filename="package://meshes/chest_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.27528</mass>
 	</link>
 	<link name="neck">
 		<inertial>
@@ -373,6 +389,7 @@
 				<mesh filename="package://meshes/neck_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.00588</mass>
 	</link>
 	<link name="head">
 		<inertial>
@@ -395,6 +412,7 @@
 				<mesh filename="package://meshes/head_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.2126</mass>
 	</link>
 	<link name="l_shoulder">
 		<inertial>
@@ -417,6 +435,7 @@
 				<mesh filename="package://meshes/l_shoulder_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.00838</mass>
 	</link>
 	<link name="l_shoulder_motor">
 		<inertial>
@@ -439,6 +458,7 @@
 				<mesh filename="package://meshes/l_shoulder_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.08288</mass>
 	</link>
 	<link name="l_upper_arm">
 		<inertial>
@@ -461,6 +481,7 @@
 				<mesh filename="package://meshes/l_upper_arm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.16814</mass>
 	</link>
 	<link name="l_forearm">
 		<inertial>
@@ -483,6 +504,7 @@
 				<mesh filename="package://meshes/l_forearm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.04863</mass>
 	</link>
 	<link name="r_shoulder">
 		<inertial>
@@ -505,6 +527,7 @@
 				<mesh filename="package://meshes/r_shoulder_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.00838</mass>
 	</link>
 	<link name="r_shoulder_motor">
 		<inertial>
@@ -527,6 +550,7 @@
 				<mesh filename="package://meshes/r_shoulder_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.08288</mass>
 	</link>
 	<link name="r_upper_arm">
 		<inertial>
@@ -549,6 +573,7 @@
 				<mesh filename="package://meshes/r_upper_arm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.16814</mass>
 	</link>
 	<link name="r_forearm">
 		<inertial>
@@ -571,6 +596,7 @@
 				<mesh filename="package://meshes/r_forearm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.04863</mass>
 	</link>
 	<joint name="r_hip_x" type="revolute">
 		<origin xyz="-0.0225417390633467 0 0" rpy="1.5707963267949 0 0"></origin>
