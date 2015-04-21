@@ -90,7 +90,7 @@ Quick reminder of horn names and screw sizes:
 \hline 
 Servomotor & main horn & free horn & big horn screw & horn screws & case screws \\ 
 \hline 
-AX12-A & none & none & none & \diameter 2 & \diameter 2\\ 
+AX12-A & none & none & \diameter 3x10mm & \diameter 2 & \diameter 2\\ 
 \hline 
 MX28 & HN07-N101 & HN07-I101 & \diameter 2.5x8mm & \diameter 2x3mm & \diameter 2.5x6mm  \\ 
 \hline 
@@ -131,6 +131,67 @@ Here's my tip: take the nut using thin tweezers and bring it in the site with th
  \end{center}
 
 
+
+\section{Addressing Dynamixel motors}
+\label{addressing-poppys-motors}
+
+By default, every Dynamixel servomotor has its ID set to 1. To use several servomotors in a serial way, each of them must have a unique ID.
+
+\subsection{Installing the driver for USB2AX}
+
+USB2AX is the device that will connect the Poppy Humanoid robot's head to the Dynamixel servomotors. It can also be used to control the servomotors directly from your computer and that's what we will do to address the motors.
+
+On Linux, no installation is needed, but you must add yourself in the dialout group to have access to the USB port:
+ \begin{verbatim}
+sudo addgroup "username" dialout
+\end{verbatim}
+
+Otherwise, the driver is available \href{http://www.xevelabs.com/doku.php?id=product:usb2ax:quickstart}{here}.
+
+Don't forget to power up your motors (using a SMPS2Dynamixel) otherwise they won't be detected !
+
+\subsection{Installing the scanning software}
+
+Use one of the two following softwares to access the Dynamixel servomotors regiters:
+
+\begin{itemize}
+\item \href{http://poppy-project.github.io/pypot/herborist.html}{Herborist}: tool created by the Poppy Project team. 
+\item \href{http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel\_monitor\_connection.htm}{Dynamixel Wizard}: windows-only tool provided by Robotis.
+\end{itemize}
+
+Herborist comes with the Pypot library, but needs the additional library PyQt4 for graphical interface.
+\begin{verbatim}
+sudo pip install pypot
+sudo apt-get install python-qt4
+\end{verbatim}
+
+It should then be directly accessible for a terminal:
+\begin{verbatim}
+sudo herborist
+\end{verbatim}
+ \begin{center}
+  \includegraphics[width=0.8\textwidth]{herborist}
+ \end{center}
+ 
+ Connect each motor \textbf{one by one} to the USB2AX and use the 'scan' button in Herborist or Dynamixel Wizard to detect it. If it's a new motor, it should have ID 1 and baudrate 57142bps, appart AX-12A servos who already have a 1000000 baudrate.
+
+You have to set:
+\begin{itemize}
+\item ID corresponding to the naming convention
+\item Baudrate to 1 000 000bps
+\item Return delay time to 0 ms instead of 0.5 ms
+\end{itemize}
+
+In Herborist, don't forget to click on the 'Update EEPROM' button so the changes are taken in account.
+
+
+\subsection{Naming conventions}
+
+If you want your PoppyHumanoid object to correspond to your robot without having to modify the configuration file, you should stick to the Poppy Humanoid robot naming and addressing convention. This will ensure that, in your code, when you use a motor's name, you will really send orders to the corresponding physical motor.
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{motor_naming_convention}
+ \end{center}
+ 
 
 \section{Assembly tips}
 
@@ -291,8 +352,6 @@ Right shin & r\_ankle\_y & MX-28AT & 25\\
 
 
 \subsection{Head} 
- 
-Documentation links:
 
 Motors lists:
 
@@ -308,67 +367,56 @@ Head & head\_y & AX-12A & 37 \\
 \end{tabular} 
 \end{center}
 
+\subsubsection{Flashig Odroid board}
 
-\section{Addressing Dynamixel motors}
-\label{addressing-poppys-motors}
+\url{https://github.com/poppy-project/poppy_install}
 
-By default, every Dynamixel servomotor has its ID set to 1. To use several servomotors in a serial way, each of them must have a unique ID.
+\subsubsection{Neck assembly}
 
-\subsection{Installing the driver for USB2AX}
+The last servomotor is head\_y, a AX-12A. Set its ID to 37 and response time to 0 (baudrate is already at 1000000).
 
-USB2AX is the device that will connect the Poppy Humanoid robot's head to the Dynamixel servomotors. It can also be used to control the servomotors directly from your computer and that's what we will do to address the motors.
 
-On Linux, no installation is needed, but you must add yourself in the dialout group to have access to the USB port:
- \begin{verbatim}
-sudo addgroup "username" dialout
-\end{verbatim}
-
-Otherwise, the driver is available \href{http://www.xevelabs.com/doku.php?id=product:usb2ax:quickstart}{here}.
-
-Don't forget to power up your motors (using a SMPS2Dynamixel) otherwise they won't be detected !
-
-\subsection{Installing the scanning software}
-
-Use one of the two following softwares to access the Dynamixel servomotors regiters:
-
-\begin{itemize}
-\item \href{http://poppy-project.github.io/pypot/herborist.html}{Herborist}: tool created by the Poppy Project team. 
-\item \href{http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel\_monitor\_connection.htm}{Dynamixel Wizard}: windows-only tool provided by Robotis.
-\end{itemize}
-
-Herborist comes with the Pypot library, but needs the additional library PyQt4 for graphical interface.
-\begin{verbatim}
-sudo pip install pypot
-sudo apt-get install python-qt4
-\end{verbatim}
-
-It should then be directly accessible for a terminal:
-\begin{verbatim}
-sudo herborist
-\end{verbatim}
  \begin{center}
-  \includegraphics[width=0.8\textwidth]{herborist}
+  \includegraphics[width=0.6\textwidth]{neck1}
  \end{center}
  
- Connect each motor \textbf{one by one} to the USB2AX and use the 'scan' button in Herborist or Dynamixel Wizard to detect it. If it's a new motor, it should have ID 1 and baudrate 57142bps, appart AX-12A servos who already have a 1000000 baudrate.
-
-You have to set:
-\begin{itemize}
-\item ID corresponding to the naming convention
-\item Baudrate to 1 000 000bps
-\item Return delay time to 0 ms instead of 0.5 ms
-\end{itemize}
-
-In Herborist, don't forget to click on the 'Update EEPROM' button so the changes are taken in account.
-
-
-\subsection{Naming conventions}
-
-If you want your PoppyHumanoid object to correspond to your robot without having to modify the configuration file, you should stick to the Poppy Humanoid robot naming and addressing convention. This will ensure that, in your code, when you use a motor's name, you will really send orders to the corresponding physical motor.
-\begin{center}
-  \includegraphics[width=0.7\textwidth]{motor_naming_convention}
+ Screw the neck to head\_z servo (\diameter 2x8mm screws). There are marks on the neck and on the servo to help you determine the orientation.
+ 
+ 
+ \begin{center}
+  \includegraphics[width=0.6\textwidth]{neck2}
  \end{center}
  
+ Put \diameter 2 nuts in the servo case and attach it in the head\_back part.
+ 
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{neck3}
+ \end{center}
+
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{neck4}\\
+ \end{center}
+
+Assemble the servo on the neck (\diameter 2 screws on the controlled side, the big screw on the other side). You again have marks on the neck and on the servo for orientation.
+
+Connect head\_y to the dispatcher by passig the cable through the hole in the head.
+
+\subsubsection{Electronics}
+
+\url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_soldering.md}
+\url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_wiring.md}
+
+ 
+%audio apli : screwdriver SL1.5 
+
+Then close the head using 3 \diameter 2x8mm screws. You may havve to first blow some remainig powder out of the holes.
+ 
+
+ 
+
+
+
+
  
 \section{Useful links}
 \label{documentation-links}
