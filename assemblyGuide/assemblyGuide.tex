@@ -367,9 +367,55 @@ Head & head\_y & AX-12A & 37 \\
 \end{tabular} 
 \end{center}
 
-\subsubsection{Flashing Odroid board}
+\subsubsection{Setup of the Odroid board}
 
-\url{https://github.com/poppy-project/poppy_install}
+
+The Odroid is normally shipped with a eMMC module with Ubuntu 1.14 already flashed (it should have a red sticker on it). Simply plug it on the Odroid board and power it. After boot time, it should have the red light steady and the blue light flashing.
+
+If you don't have a pre-flashed eMMC module, follow these instructions: \url{https://github.com/poppy-project/poppy_install}
+
+%http://www.hardkernel.com/main/products/prdt_info.php?g_code=G138749987644
+\vspace{3mm} Connect the Odroid board to your network using an ethernet cable. You have to access a wired network for initial setup (I tried link-local without success).
+
+Windows users may wish to install the \href{https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR}{Bonjour} software (the link is for the printer version, which does very well what we want it to do). Bonjour is installed by default on Linux and Mac. It is used to communicate with another device using its name instead of its IP.
+
+You should get an answer if you type:
+
+\begin{verbatim}
+ping odroid.local
+\end{verbatim}
+
+Windows users now probably wish to install \href{http://www.putty.org/}{Putty} or any SSH client. Linux and Mac users have one installed by default. Then:
+
+\begin{verbatim}
+ssh odroid@odroid.local
+\end{verbatim}
+
+Password is odroid. Congratulations, you are now inside the Odroid!
+
+Make sure the Odroid board has access to the internet and enter:
+
+\begin{verbatim}
+curl -L https://raw.githubusercontent.com/poppy-project/
+poppy_install/master/poppy_setup.sh | sudo bash
+\end{verbatim}
+
+%Is it really usful to download matplot lib by default ??
+
+Enter the odroid password. This command will download and run a script which will download and prepare installation. The board asks for a reboot:
+
+\begin{verbatim}
+sudo reboot
+\end{verbatim}
+
+You loose the SSH connection. The board has changed hostname and password, so wait for the blue light to flash regularly and connect with:
+
+\begin{verbatim}
+ssh poppy@poppy.local
+\end{verbatim}
+
+As you guessed, password is poppy. Installation process takes place automatically (and takes a while). When you see 'System install complete', do a Ctrl+C to finish. After a new reboot, your Odroid board is ready.
+
 
 \subsubsection{Neck assembly}
 
@@ -406,6 +452,7 @@ Connect head\_y to the dispatcher by passig the cable through the hole in the he
 \url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_soldering.md}
 \url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_wiring.md}
 
+TODO
  
 %audio apli : screwdriver SL1.5 
 
@@ -460,7 +507,7 @@ STL files: & \href{https://github.com/poppy-project/poppy-humanoid/releases/down
  & \href{https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip}{download/Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip}
 \\
 
- & \\
+Bonjour software &\url{https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR} \\
  
 \end{tabular} 
 
