@@ -84,12 +84,13 @@ class TemperatureMonitor(pypot.primitive.LoopPrimitive):
         On MacOS "Darwin" you can use "afplay" for player
         On windows vista+, you can maybe use "start wmplayer"
         '''
-    def __init__(self, robot, freq=0.5, temp_limit=50, player='aplay', sound=None):
+    def __init__(self, robot, freq=0.5, temp_limit=55, player='aplay', sound=None):
         pypot.primitive.LoopPrimitive.__init__(self, robot, freq)
 
         self.temp_limit = temp_limit
         self.player = player
         self.sound = sound
+        self.watched_motors = self.robot.legs + self.robot.torso + self.robot.arms
 
     def setup(self):
         pass
@@ -103,7 +104,7 @@ class TemperatureMonitor(pypot.primitive.LoopPrimitive):
     def check_temperature(self):
         motor_list = []
 
-        for m in self.robot.motors:
+        for m in self.watched_motors:
             if m.present_temperature > self.temp_limit:
                 motor_list.append(m)
 
