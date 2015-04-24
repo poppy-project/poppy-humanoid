@@ -26,6 +26,37 @@ DXL2VEL = {
 COLOR = '0.9 0.9 0.9 1.0'  # RGB Alpha
 
 
+# Masses (kg)
+MASS = {
+    'pelvis': 0.18508,
+    'r_hip': 0.08433,
+    'r_hip_motor': 0.13848,
+    'r_thigh': 0.12066,
+    'r_shin': 0.11169,
+    'r_foot': 0.04674,
+    'l_hip': 0.08434,
+    'l_hip_motor': 0.13848,
+    'l_thigh': 0.12152,
+    'l_shin': 0.11169,
+    'l_foot': 0.04678,
+    'abs_motors': 0.27838,
+    'abdomen': 0.03839,
+    'spine': 0.09264,
+    'bust_motors': 0.15889,
+    'chest': 0.27528,
+    'neck': 0.00588,
+    'head': 0.21260,
+    'l_shoulder': 0.00838,
+    'l_shoulder_motor': 0.08288,
+    'l_upper_arm': 0.16814,
+    'l_forearm': 0.04863,
+    'r_shoulder': 0.00838,
+    'r_shoulder_motor': 0.08288,
+    'r_upper_arm': 0.16814,
+    'r_forearm': 0.04863
+}
+
+
 def update_URDF_from_config(urdf_path, config_path):
     with open(urdf_path) as f:
         urdf = xmltodict.parse(f.read())
@@ -50,7 +81,9 @@ def update_URDF_from_config(urdf_path, config_path):
 
     # Update link properties
     for l in links:
+        name = l['@name']
         l['visual']['material']['color']['@rgba'] = COLOR
+        l['mass'] = MASS[name]
 
     new_urdf = xmltodict.unparse(urdf, pretty=True)
 
