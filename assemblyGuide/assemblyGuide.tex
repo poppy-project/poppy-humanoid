@@ -6,8 +6,8 @@
 
 \begin{document}
 
-\title{Poppy Humanoid Robot Mounting Guide}
-\author{Manon Cortial, Generation Robots}
+\title{Poppy Humanoid Robot Assembly Guide}
+\author{Manon Cortial, Génération Robots}
 
 \maketitle
 
@@ -19,7 +19,7 @@
 
 Poppy is an open hardware and open-source robotics project. It has been designed to allow researchers and students to easily remove and replace some parts of the body. 
 
-For example,   different leg shapes have been tested on the Poppy Humanoid robot to make the robot walk.
+For example, different leg shapes have been tested on the Poppy Humanoid robot to make the robot walk.
 
  \begin{center}
   \includegraphics[width=0.6\textwidth]{img/humanoids2013_Experiments}
@@ -32,11 +32,24 @@ The Poppy humanoid robot is built using mainly MX-28 Dynamixel servomotors, whic
 
 So be very careful and put the robot in a free space while testing your programs.
 
+\subsubsection{About this documentation}
+
+This documentation contains some help and tips to build a Poppy Humanoid robot. It does not replace the videos made by Inria, but complete and sometimes corrects or updates them.
+
+It contains a bit of context about Dynamixel servomotors and how to assemble them (section \ref{dynamixel-hardware}) and also how to set the right parameters for them (section \ref{addressing-poppys-motors}).
+
+You will also find pictures of all the parts to help you name them (section \ref{structural-parts}), then assembly tips and links to the assembly videos (section \ref{assembly-tips}). As there is no video for the head assembly, this doc contains a pretty complete guide for head assembly (section \ref{head-assembly}).
+
+At the end, you will find a list of useful links (section \ref{documentation-links}) to help you find more information and help.
+
+Please don't hesitate to comment and correct this documentation on the Poppy forum !
+
 \section{Dynamixel hardware}
+\label{dynamixel-hardware}
 
 The Poppy Humanoid robot is mainly built with \href{http://www.generationrobots.com/en/401858-servomotor-dynamixel-mx-28at.html}{MX-28AT Dynamixel servomotors} (MX-28T are the previous version and can be used without any problem). The other servomotors are MX-64T (bigger and stronger) and AX-12A (smaller, used for the head).
 
-Each Dynamixel servomotor embeds an electronical board allowing it to receive different kind of orders (about goal, torque...) and communicate with other Dynamixel servos. Therefore, you can chain up several Dynamixel servomotors (each with a different ID) and command them all from one end of the chain: each servomotor will pass the orders to the next one. 
+Each Dynamixel servomotor embeds an electronic board allowing it to receive different kind of orders (about goal, torque...) and communicate with other Dynamixel servos. Therefore, you can chain up several Dynamixel servomotors (each with a different ID) and command them all from one end of the chain: each servomotor will pass the orders to the next one. 
 
  \begin{center}
   \includegraphics[width=0.6\textwidth]{img/daisy_link}
@@ -53,8 +66,8 @@ When you receive your Dynamixel servomotors, the horns are not mounted. They are
 When putting the controlled horn, be very careful to \textbf{put the dot on the horn at the same point than the dot on the servo axis}. Once the horn is put, it is most of the time \textbf{impossible to remove} ! This will ensure that the zero position of the servo matches with the zero position of the structure around.
 
  \begin{center}
-  \includegraphics[height=0.55\textwidth]{img/zero}
-  \includegraphics[height=0.55\textwidth]{img/zero2}
+  \includegraphics[height=0.5\textwidth]{img/zero}
+  \includegraphics[height=0.5\textwidth]{img/zero2}
  \end{center}
 
 On the outside of the horn, you also have three dots indicating the orientation. You should find the same three dots on structural parts, so be sure to match them.
@@ -64,7 +77,7 @@ On the outside of the horn, you also have three dots indicating the orientation.
  \end{center}
 \subsection{Horns of MX-28 and MX-64}
 
-On each Dynamixel servotor apart from the AX-12A, you will have to mount a horn to the motor axis. Most of the time, you will also have to mout a free horn on the opposite side to provide better fixation points for the structure parts.
+On each Dynamixel servomotor apart from the AX-12A, you will have to mount a horn to the motor axis. Most of the time, you will also have to mount a free horn on the opposite side to provide better fixation points for the structure parts.
 
 To mount the main horn, put the plastic ring (white or black) and drive the horn on the axis. \textbf{Be careful of the zero when putting the main horn!} Then put thread locker on the big screw and screw it in the middle.
 
@@ -114,23 +127,10 @@ Here's my tip: take the nut using thin tweezers and bring it in the site with th
   \includegraphics[width=0.55\textwidth]{img/nuts3}
  \end{center}
  
- These nuts correspond to diameter 2.5mm screws, allen wrench 2mm.
+ These nuts correspond to diameter 2.5mm screws, Allen wrench 2mm.
  
  To build a full Poppy Humanoid robot, an electrical screwdriver is strongly advised!
 
-\section{Structural parts}
-
- \begin{center}
-  \includegraphics[width=0.9\textwidth]{img/parts_head}\\
-  \vspace{1mm}
-  \includegraphics[width=0.9\textwidth]{img/parts_electronics}\\
-  \vspace{1mm}
-  \includegraphics[width=0.9\textwidth]{img/parts_chest}\\
-  \vspace{1mm}
-  \includegraphics[width=0.9\textwidth]{img/parts_arms}\\
-  \vspace{1mm}
-  \includegraphics[width=0.9\textwidth]{img/parts_legs}
- \end{center}
 
 
 
@@ -154,7 +154,7 @@ Don't forget to power up your motors (using a SMPS2Dynamixel) otherwise they won
 
 \subsection{Installing the scanning software}
 
-Use one of the two following softwares to access the Dynamixel servomotors regiters:
+Use one of the two following software to access the Dynamixel servomotors registers:
 
 \begin{itemize}
 \item \href{http://poppy-project.github.io/pypot/herborist.html}{Herborist}: tool created by the Poppy Project team. 
@@ -175,12 +175,12 @@ sudo herborist
   \includegraphics[width=0.8\textwidth]{img/herborist}
  \end{center}
  
- Connect each motor \textbf{one by one} to the USB2AX and use the 'scan' button in Herborist or Dynamixel Wizard to detect it. If it's a new motor, it should have ID 1 and baudrate 57142bps, appart AX-12A servos who already have a 1000000 baudrate.
+ Connect each motor \textbf{one by one} to the USB2AX and use the 'scan' button in Herborist or Dynamixel Wizard to detect it. If it's a new motor, it should have ID 1 and baudrate 57600bps, apart from AX-12A servos who already have a 1000000 baudrate.
 
 You have to set:
 \begin{itemize}
 \item ID corresponding to the naming convention
-\item Baudrate to 1 000 000bps
+\item Baudrate to 1 000 000 bps
 \item Return delay time to 0 ms instead of 0.5 ms
 \end{itemize}
 
@@ -194,14 +194,29 @@ If you want your PoppyHumanoid object to correspond to your robot without having
   \includegraphics[width=0.8\textwidth]{img/motor_naming_convention}
  \end{center}
  
+ 
+ \section{Structural parts}
+ \label{structural-parts}
+
+ \begin{center}
+  \includegraphics[width=0.9\textwidth]{img/parts_head}\\
+  \vspace{1mm}
+  \includegraphics[width=0.9\textwidth]{img/parts_electronics}\\
+  \vspace{1mm}
+  \includegraphics[width=0.9\textwidth]{img/parts_chest}\\
+  \vspace{1mm}
+  \includegraphics[width=0.9\textwidth]{img/parts_arms}\\
+  \vspace{1mm}
+  \includegraphics[width=0.9\textwidth]{img/parts_legs}
+ \end{center}
+
 
 \section{Assembly tips}
+ \label{assembly-tips}
 
 \subsection{Trunk} 
  
-Documentation links:
-
-\begin{itemize}
+ \begin{itemize}
 \item \textbf{\href{https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double\_MX64\_assembly.md}{Double MX64}}
 \item \textbf{\href{https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double\_MX28\_assembly.md}{Double MX28}} Don't screw the i101-Set\_to\_ MX28\_link (the plastic part with a free horn on it) too tightly, or don't screw it at all since you will need to unscrew it during the trunk assembly.
 \item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/subassembly/spine\_assembly\_instructions.md}{Spine}}
@@ -246,8 +261,6 @@ Chest & r\_shoulder\_y & MX-28AT & 51 \\
 
 \subsection{Arms} 
  
-Documentation links:
-
 \begin{itemize}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right\_forearm\_assembly\_instructions.md}{Right}/\href{https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left\_forearm\_assembly\_instructions.md}{Left} forearm} The hand design slightly changed from the videos, but the nuts and screws remain the same.
 \begin{center}
@@ -298,16 +311,15 @@ Right upper arm & r\_elbow\_y & MX-28AT & 54 \\
 
 \subsection{Legs} 
  
-Documentation links:
 
-There is only a video for left leg assembly. While assembling the right leg, be sure to put your motors symetrical compared to the left leg. Also don't forget to change the motors ID from 12-15 to 22-25.
+There is only a video for left leg assembly. While assembling the right leg, be sure to put your motors symmetrical compared to the left leg. Also don't forget to change the motors IDs from 12-15 to 22-25.
 
 \begin{itemize}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_hip\_assembly\_instructions.md}{Hip}}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_thigh\_assembly\_instructions.md}{Tight}}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_shin\_assembly\_instructions.md}{Shin}}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/right\_leg\_assembly\_instructions.md}{Right}/\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_leg\_assembly\_instructions.md}{Left} leg assembly}
-\item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/pelvis\_assembly\_instructions.md}{Pelvis}} The videos shows \diameter 2x5mm screws. Use the \diameter 2x5mm screws that you can find in the Bolt-nut set BNS-10.
+\item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/pelvis\_assembly\_instructions.md}{Pelvis}} The videos shows \diameter 2x5mm screws. Use the \diameter 2x6mm screws that you can find in the Bolt-nut set BNS-10.
 \item \textbf{\href{https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md}{Torso and legs assembly}}
 \end{itemize}
 
@@ -354,8 +366,8 @@ Right shin & r\_ankle\_y & MX-28AT & 25\\
 
 
 \subsection{Head} 
+ \label{head-assembly}
 
-Motors lists:
 
 \begin{center}
 
@@ -451,24 +463,100 @@ The last servomotor is head\_y, a AX-12A. Set its ID to 37 and response time to 
 
 Assemble the servo on the neck (\diameter 2 screws on the controlled side, the big screw on the other side). You again have marks on the neck and on the servo for orientation.
 
-Connect head\_y to the dispatcher by passig the cable through the hole in the head.
+Connect head\_y to the dispatcher by passing the cable through the hole in the head.
+
+Plug a 500mm cable from the pelvis SMPS2Dynamixel board to the back of the head. Attach a USB2AX at the end of this cable in the head.
+
+Use a 140mm cable to connect the head\_y motor to another USB2AX.
+
+\subsubsection{Camera and screen}
+
+
+
+Put 3 \diameter 2 nuts in the camera support and attach the camera using \diameter 2 x6mm screws.
+
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{img/head_camera1}
+ \end{center}
+
+
+Attach the camera support to head\_front using \diameter 2.5x4mm screws. Put tape on the screws to avoid electrical interferences with the camera board.
+
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{img/head_camera2}
+ \end{center}
+
+Attach the camera to its support using \diameter 2 x6mm screws.
+
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{img/head_camera3}
+ \end{center}
+
+Put the screen and screen cover in the head. Attach the manga screen (or the fake one) with 2 \diameter 2.5x6mm screws.
+
+\begin{center}
+  \includegraphics[width=0.45\textwidth]{img/head_screen_cover}
+  \includegraphics[width=0.45\textwidth]{img/head_screen}
+ \end{center}
 
 \subsubsection{Electronics}
 
-\url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_soldering.md}
-\url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_wiring.md}
+If you don't have pre-soldered components, see: \url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_soldering.md}
+%\url{https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_wiring.md}
 
-TODO
+
+
+Pass the Dynamixel connector of the Ubec through the hole in the head and connect it to the torso SMPS2Dynamixel.
+
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{img/power_wiring}
+ \end{center}
+
+
+Attach both the other side of Ubec and the Odroid power cable to the audio amplifier. Be sure no to allow any short-circuit.
+
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{img/head_ampli_power}
+ \end{center}
  
-%audio apli : screwdriver SL1.5 
-
-Then close the head using 3 \diameter 2x8mm screws. You may have to first blow some remainig powder out of the holes.
  
+Plug the audio jack. Wires order from left to right (when power bornier is farthest right): red-black-uncolored-white
 
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{img/audio_amp_connection_zoom}
+ \end{center}
+
+\newpage
+
+Put \diameter 2 nuts around the flowers openings then attach the speakers using \diameter 2 x3mm screws.
+
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{img/head_speaker}
+ \end{center}
+
+Connect the speakers to audio ampli, left speaker black wire on Lout, Right ampli black wire on Rout.
+
+%\begin{center}
+ % \includegraphics[width=0.6\textwidth]{img/head_wiring1}
+ %\end{center}
+ \begin{center}
+  \includegraphics[width=0.9\textwidth]{img/head_wiring2}
+ \end{center}
+
+Plug audio jack in Odroid, then use 2 \diameter 2.5x8mm screws to attch the Odroid board. Make sure the Ethernet connector is correctly placed in front of the corresponding hole.
+
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{img/head_odroid}
+ \end{center}
+
+Plug the power jack. On the hub, plug the camera and the two USB2AXs. Plug the wifi dongle if you have one. Push the hub above the Odroid.
+
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{img/head_final}
+ \end{center}
+
+Then close the head using 3 \diameter 2x8mm screws. %You may have to first blow some remaining powder out of the holes.
  
-
-
-
 
  
 \section{Useful links}
