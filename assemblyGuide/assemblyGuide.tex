@@ -214,49 +214,7 @@ If you want your PoppyHumanoid object to correspond to your robot without having
 \section{Assembly tips}
  \label{assembly-tips}
 
-\subsection{Trunk} 
- 
- \begin{itemize}
-\item \textbf{\href{https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double\_MX64\_assembly.md}{Double MX64}}
-\item \textbf{\href{https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double\_MX28\_assembly.md}{Double MX28}} Don't screw the i101-Set\_to\_ MX28\_link (the plastic part with a free horn on it) too tightly, or don't screw it at all since you will need to unscrew it during the trunk assembly.
-\item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/subassembly/spine\_assembly\_instructions.md}{Spine}}
-\item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/subassembly/chest\_assembly\_instructions.md}{Chest}} The video shows a HN07\_I101 in the prepared parts, but you don't need it.
-\item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/5\_DoFs\_humanoid\_spine.md}{Trunk assembly}} You have to insert the nuts in the chest before mounting the double MX-28 part. You also have to put nuts in the abdomen before mounting the double MX-64 part.
 
-The abdomen part you have has a "Poppy" mark on the back, while the one on the video don't. You also have holes to screw the SMPS2Dynamiel, instead of sticking it (use 2.5*8mm screws).
-\begin{center}
-  \includegraphics[width=0.8\textwidth]{img/screwed_SMPS}
-\end{center}
-\end{itemize}
-
-
-Motors list:
-
-\begin{center}
-
-\begin{tabular}{|c|c|c|c|}
-\hline 
-Sub-assembly name & Motor name & Type & ID \\ 
-\hline 
-
-Double MX64 & abs\_y & MX-64AT & 31 \\ 
-\hline 
-Double MX64 & abs\_x & MX-64AT & 32 \\
-\hline 
-Spine & abs\_z & MX-28AT & 33 \\
-\hline 
-Double MX28 & bust\_y & MX-28AT & 34 \\
-\hline 
-Double MX28 & bust\_x & MX-28AT & 35 \\
-\hline 
-Chest & head\_z & AX-12A & 36 \\ 
-\hline 
-Chest & l\_shoulder\_y & MX-28AT & 41 \\
-\hline 
-Chest & r\_shoulder\_y & MX-28AT & 51 \\
-\hline 
-\end{tabular} 
-\end{center}
 
 
 \subsection{Arms} 
@@ -309,6 +267,50 @@ Right upper arm & r\_elbow\_y & MX-28AT & 54 \\
 \end{center}
 
 
+\subsection{Trunk} 
+ 
+ \begin{itemize}
+\item \textbf{\href{https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double\_MX64\_assembly.md}{Double MX64}}
+\item \textbf{\href{https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double\_MX28\_assembly.md}{Double MX28}} Don't screw the i101-Set\_to\_ MX28\_link (the plastic part with a free horn on it) too tightly, or don't screw it at all since you will need to unscrew it during the trunk assembly.
+\item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/subassembly/spine\_assembly\_instructions.md}{Spine}}
+\item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/subassembly/chest\_assembly\_instructions.md}{Chest}} The video shows a HN07\_I101 in the prepared parts, but you don't need it.
+\item \textbf{\href{https://github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/5\_DoFs\_humanoid\_spine.md}{Trunk assembly}} You have to insert the nuts in the chest before mounting the double MX-28 part. You also have to put nuts in the abdomen before mounting the double MX-64 part.
+
+The abdomen part you have has a "Poppy" mark on the back, while the one on the video don't. You also have holes to screw the SMPS2Dynamiel, instead of sticking it (use 2.5*8mm screws).
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{img/screwed_SMPS}
+\end{center}
+\end{itemize}
+
+
+Motors list:
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Sub-assembly name & Motor name & Type & ID \\ 
+\hline 
+
+Double MX64 & abs\_y & MX-64AT & 31 \\ 
+\hline 
+Double MX64 & abs\_x & MX-64AT & 32 \\
+\hline 
+Spine & abs\_z & MX-28AT & 33 \\
+\hline 
+Double MX28 & bust\_y & MX-28AT & 34 \\
+\hline 
+Double MX28 & bust\_x & MX-28AT & 35 \\
+\hline 
+Chest & head\_z & AX-12A & 36 \\ 
+\hline 
+Chest & l\_shoulder\_y & MX-28AT & 41 \\
+\hline 
+Chest & r\_shoulder\_y & MX-28AT & 51 \\
+\hline 
+\end{tabular} 
+\end{center}
+
 \subsection{Legs} 
  
 
@@ -317,7 +319,7 @@ There is only a video for left leg assembly. While assembling the right leg, be 
 \begin{itemize}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_hip\_assembly\_instructions.md}{Hip}}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_thigh\_assembly\_instructions.md}{Tight}}
-\item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_shin\_assembly\_instructions.md}{Shin}}
+\item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_shin\_assembly\_instructions.md}{Shin}} If you received your Poppy kit from Generation Robots, you can use the custom 220mm cables instead of really short 200mm cables.
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/right\_leg\_assembly\_instructions.md}{Right}/\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left\_leg\_assembly\_instructions.md}{Left} leg assembly}
 \item \textbf{\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/pelvis\_assembly\_instructions.md}{Pelvis}} The videos shows \diameter 2x5mm screws. Use the \diameter 2x6mm screws that you can find in the Bolt-nut set BNS-10.
 \item \textbf{\href{https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md}{Torso and legs assembly}}
@@ -486,7 +488,7 @@ Attach the camera support to head\_front using \diameter 2.5x4mm screws. Put tap
   \includegraphics[width=0.6\textwidth]{img/head_camera2}
  \end{center}
 
-Attach the camera to its support using \diameter 2 x6mm screws.
+Attach the camera to its support using \diameter 2x6mm screws.
 
 \begin{center}
   \includegraphics[width=0.6\textwidth]{img/head_camera3}
@@ -520,7 +522,7 @@ Attach both the other side of Ubec and the Odroid power cable to the audio ampli
  \end{center}
  
  
-Plug the audio jack. Wires order from left to right (when power bornier is farthest right): red-black-uncolored-white
+Plug the audio jack. Wires order from left to right (when power terminal is farthest right): red-black-uncolored-white
 
 \begin{center}
   \includegraphics[width=0.6\textwidth]{img/audio_amp_connection_zoom}
@@ -543,7 +545,7 @@ Connect the speakers to audio ampli, left speaker black wire on Lout, Right ampl
   \includegraphics[width=0.9\textwidth]{img/head_wiring2}
  \end{center}
 
-Plug audio jack in Odroid, then use 2 \diameter 2.5x8mm screws to attch the Odroid board. Make sure the Ethernet connector is correctly placed in front of the corresponding hole.
+Plug audio jack in Odroid, then use 2 \diameter 2.5x8mm screws to attach the Odroid board. Make sure the Ethernet connector is correctly placed in front of the corresponding hole.
 
   \begin{center}
   \includegraphics[width=0.6\textwidth]{img/head_odroid}
@@ -562,49 +564,41 @@ Then close the head using 3 \diameter 2x8mm screws. %You may have to first blow 
 \section{Useful links}
 \label{documentation-links}
 
+\textbf{Assembly instructions:}
 
-\hspace{-7mm}\begin{tabular}{lr}
+\begin{flushright}
+\href{https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md}{https://github.com/poppy-project/poppy-humanoid/blob/master/ hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md}
+\end{flushright}
 
- \textbf{Assembly instructions:} & \href{https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md}{https://github.com/poppy-project/poppy-humanoid/blob/master/} \\ 
+Bill of Material:
 
- & \href{https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md}{hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md} \\  
+\begin{flushright}
+\href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/BOM.md}{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/BOM.md}
+\end{flushright}
 
- & \\
+Poppy project website: \hfill \url{https://www.poppy-project.org/} 
 
-Poppy project website: & \url{https://www.poppy-project.org/} \\ 
+Poppy project forum: \hfill \url{https://forum.poppy-project.org/} 
 
-Poppy project forum: & \url{https://forum.poppy-project.org/} \\ 
+herborist doc.: \hfill
+\href{http://poppy-project.github.io/pypot/herborist.html}{http://poppy-project.github.io/pypot/herborist.html}
 
-   & \\
- 
-Bill of Material: & \href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/BOM.md}{https://github.com/poppy-project/Poppy-lightweight-biped-legs/} \\ 
+Dynamixel wizard doc.:
 
- & \href{https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/BOM.md}{/blob/master/doc/BOM.md} \\ 
- 
- & \\
+\begin{flushright}
+\href{http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel_monitor_connection.htm}{http://support.robotis.com/en/software/roboplus/ dynamixel\_monitor/quickstart/dynamixel\_monitor\_connection.htm}
+\end{flushright}
 
+Bonjour software:
 
- 
- herborist documentation & \url{http://poppy-project.github.io/pypot/herborist.html}\\
- 
-    & \\
-   
-    Dynamixel wizard doc. & \href{http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel\_monitor\_connection.htm}
-{http://support.robotis.com/en/software/roboplus/}\\
+\begin{flushright}
+\href{https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR}{https://support.apple.com/kb/DL999?locale=fr\_FR\&viewlocale=fr\_FR}
+\end{flushright}
 
-     & \href{http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel\_monitor\_connection.htm}
-{dynamixel\_monitor/quickstart/dynamixel\_monitor\_connection.htm}\\
+STL files:
 
-   & \\
-
-STL files: & \href{https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip}{https://github.com/poppy-project/poppy-humanoid/releases/} \\ 
- & \href{https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip}{download/Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip}
-\\
-
-Bonjour software &\url{https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR} \\
- 
-\end{tabular} 
-
-
+\begin{flushright}
+\href{https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip}{https://github.com/poppy-project/poppy-humanoid/releases/download/ Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip}
+\end{flushright}
 
 \end{document}
