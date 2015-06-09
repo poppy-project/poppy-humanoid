@@ -1,9 +1,16 @@
-\documentclass{article}
+\documentclass[includefoot]{article}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{wasysym}
 \usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lfoot{\href{www.generationrobots.com}{www.generationrobots.com}}
+
 
 \begin{document}
 
@@ -15,6 +22,7 @@
   \includegraphics[height=0.22\textwidth]{img/poppy-logo} \hfill \includegraphics[height=0.22\textwidth]{img/GR-logo}
 
   \tableofcontents
+
 
 \section{Introduction}
 
@@ -116,11 +124,11 @@ MX64 & HN05-N102 & HN05-I101 & \diameter 3x8mm & \diameter 2.5x4mm & \diameter 2
 \hline 
 \end{tabular} 
 
-You need  1.5mm for \diameter 2 screws, an allen wrench of size 2mm for \diameter 2.5 screws and 2.5mm for \diameter 3 screws.
+You need an allen wrench of size 1.5mm for \diameter 2 screws, 2mm for \diameter 2.5 screws and 2.5mm for \diameter 3 screws. The longer \diameter 2 screws need a Phillips screwdriver.
 
 \subsection{Putting the nuts}
 
-To attach structural parts on the body of the servomotors, you have to first insert the nuts in their sites. This step may be quite painful if you don't have elfic fingers.
+To attach structural parts on the body of the servomotors, you have to first insert the nuts in their sites. This step may be quite painful if you don't have elfic fingers (there are less nuts to insert in the AT servomotors than in the T version used for the videos).
 
 Here's my tip: take the nut using thin tweezers and bring it in the site with the right orientation. Put the end of the tweezers in the hole to ensure good alignment. Then use flat pincers to adjust the nut.
 
