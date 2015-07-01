@@ -71,7 +71,7 @@ time to 0 (baudrate is already at 1000000).
 
 ![image](img/neck1.JPG)
 
-Screw the neck to head\_z servo (2x8mm screws). There are marks on the
+Screw the neck to head\_z servo (M2x8mm screws). There are marks on the
 neck and on the servo to help you determine the orientation.
 
 ![image](img/neck2.JPG)
@@ -101,12 +101,12 @@ on the screws to avoid electrical interferences with the camera board.
 
 ![image](img/head_camera2.JPG)
 
-Attach the camera to its support using 3 2x6mm screws.
+Attach the camera to its support using 3 M2x6mm screws.
 
 ![image](img/head_camera3.JPG)
 
 Put the screen and screen cover in the head. Attach the manga screen (or
-the fake one) with 2 2.5x6mm screws.
+the fake one) with 2 M2.5x6mm screws.
 
 ![image](img/head_screen_cover.JPG) ![image](img/head_screen.JPG)
 
@@ -130,7 +130,7 @@ is farthest right): red-black-uncolored-white
 
 ![image](img/audio_amp_connection_zoom.JPG)
 
-Put 2 nuts around the flowers openings then attach the speakers using 2
+Put 2 nuts around the flowers openings then attach the speakers using M2
 x3mm screws.
 
 ![image](img/head_speaker.JPG)
@@ -140,7 +140,7 @@ Right ampli black wire on Rout.
 
 ![image](img/head_wiring2.JPG)
 
-Plug audio jack in Odroid, then use 2 2.5x8mm screws to attach the
+Plug audio jack in Odroid, then use 2 M2.5x8mm screws to attach the
 Odroid board. Make sure the Ethernet connector is correctly placed in
 front of the corresponding hole.
 
@@ -152,4 +152,4 @@ above the Odroid.
 
 ![image](img/head_final.JPG)
 
-Then close the head using 3 2x8mm screws.
+Then close the head using 3 M2x8mm screws.

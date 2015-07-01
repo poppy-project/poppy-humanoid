@@ -66,13 +66,13 @@ Quick reminder of horn names and screw sizes:
 
 | Servomotor | main horn | free horn | big horn screw | horn screws | case screws|
 |------------| :-----------: | :-----------: | :----------------:| :-------------: | :-------------:|
-|AX12-A |      none |       none      |    3x10mm |           2      |       2
-|  MX28   |   HN07-N101 |  HN07-I101   |   2.5x8mm  |        2x3mm    |    2.5x6mm
-|  MX64    |  HN05-N102  | HN05-I101  |     3x8mm  |        2.5x4mm   |    2.5x6mm |
+|AX12-A |      none |       none      |    M3x10mm |           M2      |       M2
+|  MX28   |   HN07-N101 |  HN07-I101   |   M2.5x8mm  |       M2x3mm    |    M2.5x6mm
+|  MX64    |  HN05-N102  | HN05-I101  |     M3x8mm  |        M2.5x4mm   |    M2.5x6mm |
 
 
-You need an allen wrench of size 1.5mm for 2 screws, 2mm for 2.5 screws
-and 2.5mm for 3 screws. The longer 2 screws need a Phillips screwdriver.
+You need an allen wrench of size 1.5mm for M2 screws, 2mm for M2.5 screws
+and 2.5mm for M3 screws. The longer M2 screws need a Phillips screwdriver.
 
 ## Putting the nuts
 

@@ -19,6 +19,8 @@ robot to make the robot walk.
 
 ![image](img/humanoids2013_Experiments.png)
 
+## Safety warning
+
 The Poppy humanoid robot is built using mainly MX-28 Dynamixel
 servomotors, which are pretty powerful and may be harmful to your
 fingers or materials.
@@ -33,8 +35,8 @@ robot. It does not replace the videos made by Inria, but complete and
 sometimes corrects or updates them.
 
 It contains a bit of context about Dynamixel servomotors and how to
-assemble them (section \[dynamixel-hardware\]) and also how to set the
-right parameters for them (section \[addressing-poppys-motors\]).
+assemble them ([Dynamixel Hardware](dynamixel_hardware.md)) and also how to set the
+right parameters for them ([Addressing Dynamixel](addressing_dynamixel.md)).
 
 You will also find pictures of all the parts to help you name them
 (section \[structural-parts\]), then assembly tips and links to the
@@ -42,11 +44,10 @@ assembly videos (section \[assembly-tips\]). As there is no video for
 the head assembly, this doc contains a pretty complete guide for head
 assembly (section \[head-assembly\]).
 
-At the end, you will find a list of useful links (section
-\[documentation-links\]) to help you find more information and help.
+At the end, you will find a list of [useful links](#documentation-links)) to help you find more information and help.
 
 Please don’t hesitate to comment and correct this documentation on the
-Poppy forum !
+Poppy forum, on the [dedicated topic](https://forum.poppy-project.org/t/quickstart-assembly-and-programming-plus-some-code-examples/1228).
 
 
 # Content
@@ -92,16 +93,3 @@ STL files:
 [https://github.com/poppy-project/poppy-humanoid/releases/download/
 Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip](https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip)
 
-## How to improve this guide?
-
-You found an imprecision or an error in this guide? We need to correct
-it!
-
-If you master LaTeX and Github, get the tex file at
-<https://github.com/HumaRobotics/poppy-examples/tree/master/doc> and do
-a pull request.
-
-Otherwise, go to the forum and point the problem in this topic:
-<https://forum.poppy-project.org/t/quickstart-assembly-and-programming-plus-some-code-examples/1228>
-
-Thanks in advance!
