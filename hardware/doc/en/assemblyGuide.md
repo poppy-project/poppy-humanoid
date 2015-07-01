@@ -38,13 +38,10 @@ It contains a bit of context about Dynamixel servomotors and how to
 assemble them ([Dynamixel Hardware](dynamixel_hardware.md)) and also how to set the
 right parameters for them ([Addressing Dynamixel](addressing_dynamixel.md)).
 
-You will also find pictures of all the parts to help you name them
-(section \[structural-parts\]), then assembly tips and links to the
-assembly videos (section \[assembly-tips\]). As there is no video for
+You will also find pictures of all the parts to help you name them and assembly tips and links to the
+assembly videos. As there is no video for
 the head assembly, this doc contains a pretty complete guide for head
-assembly (section \[head-assembly\]).
-
-At the end, you will find a list of [useful links](#documentation-links)) to help you find more information and help.
+assembly.
 
 Please don’t hesitate to comment and correct this documentation on the
 Poppy forum, on the [dedicated topic](https://forum.poppy-project.org/t/quickstart-assembly-and-programming-plus-some-code-examples/1228).
@@ -64,8 +61,7 @@ Poppy forum, on the [dedicated topic](https://forum.poppy-project.org/t/quicksta
 
 ## Assembly instructions
 
-[https://github.com/poppy-project/poppy-humanoid/blob/master/
-hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md](https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md)
+<https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md>
 
 Bill of Material:
 
@@ -79,17 +75,10 @@ Poppy project forum: <https://forum.poppy-project.org/>
 
 herborist doc.: <http://poppy-project.github.io/pypot/herborist.html>
 
-Dynamixel wizard doc.:
+Dynamixel wizard doc.: <http://support.robotis.com/en/software/roboplus/dynamixel\_monitor/quickstart/dynamixel\_monitor\_connection.htm>
 
-[http://support.robotis.com/en/software/roboplus/
-dynamixel\_monitor/quickstart/dynamixel\_monitor\_connection.htm](http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel_monitor_connection.htm)
+Bonjour software: <https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR>
 
-Bonjour software:
+STL files: <https://github.com/poppy-project/poppy-humanoid/releases/download/Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip>
 
-<https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR>
-
-STL files:
-
-[https://github.com/poppy-project/poppy-humanoid/releases/download/
-Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip](https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip)
 
