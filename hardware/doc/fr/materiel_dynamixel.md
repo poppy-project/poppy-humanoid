@@ -40,8 +40,8 @@ Palonnier libre monté sur un MX-24
 Références des noms de palonniers et des tailles de vis:
 
 | Servomoteur | Palonnier | Palonnier | grosse vis   | petites vis  | vis du  |
-|             | principal | libre     | du palonnier | du palonnier | boitier | 
 |------------| :-----------: | :-----------: | :----------------:| :-------------: | :-------------:|
+|             | principal | libre     | du palonnier | du palonnier | boitier | 
 |AX12-A |      aucun |       aucun      |    M3x10mm |           M2      |       M2
 |  MX28   |   HN07-N101 |  HN07-I101   |   M2.5x8mm  |       M2x3mm    |    M2.5x6mm
 |  MX64    |  HN05-N102  | HN05-I101  |     M3x8mm  |        M2.5x4mm   |    M2.5x6mm |
