@@ -1,4 +1,4 @@
-## Arms
+## Arms assembly
 
 ![image](img/parts_arms.JPG)\
 
