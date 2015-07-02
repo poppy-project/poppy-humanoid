@@ -1,4 +1,4 @@
-## Legs
+## Legs assembly
 
 ![image](img/parts_legs.JPG)
 
@@ -18,7 +18,7 @@ Also don’t forget to change the motors IDs from 12-15 to 22-25.
     leg assembly**
 
 -   **[Pelvis](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/pelvis_assembly_instructions.md)**
-    The videos shows 2x5mm screws. Use the 2x6mm screws that you can
+    The videos shows M2x5mm screws. Use the M2x6mm screws that you can
     find in the Bolt-nut set BNS-10.
 
 -   **[Torso and legs
