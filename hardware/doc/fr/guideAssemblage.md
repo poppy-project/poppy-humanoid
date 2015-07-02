@@ -43,9 +43,9 @@ N'hésitez pas à améliorer cette documentation et à signaler les erreurs sur 
 
 ## Instructions d'assemblage
 
-<https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md>
+<https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md>
 
-List du matériel:
+Liste du matériel:
 
 <https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/BOM.md>
 
@@ -57,9 +57,9 @@ Forum du projet Poppy: <https://forum.poppy-project.org/>
 
 Doc. de herborist: <http://poppy-project.github.io/pypot/herborist.html>
 
-Doc. de Dynamixel wizard: <http://support.robotis.com/en/software/roboplus/dynamixel\_monitor/quickstart/dynamixel\_monitor\_connection.htm>
+Doc. de Dynamixel wizard: <http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel_monitor_connection.htm>
 
 Logiciel Bonjour: <https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR>
 
-Fichiers STL: <https://github.com/poppy-project/poppy-humanoid/releases/download/Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip>
+Fichiers STL: <https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip>
 
