@@ -43,7 +43,7 @@ It should then be directly accessible in a terminal:
 
     sudo herborist
 
-![image](img/herborist.png)
+![image](../img/herborist.png)
 
 Connect each motor **one by one** to the USB2AX and use the ’scan’
 button in Herborist or Dynamixel Wizard to detect it. If it’s a new
@@ -69,4 +69,4 @@ Poppy Humanoid robot naming and addressing convention. This will ensure
 that, in your code, when you use a motor’s name, you will really send
 orders to the corresponding physical motor.
 
-![image](img/motor_naming_convention.JPG)
+![image](../img/motor_naming_convention.JPG)

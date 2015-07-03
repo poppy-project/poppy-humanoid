@@ -1,10 +1,10 @@
 ## Assemblage des bras
 
-![image](../en/img/parts_arms.JPG)\
+![image](../img/parts_arms.JPG)\
 
 -   **Avant bras [droit](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_forearm_assembly_instructions.md)/[gauche](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_forearm_assembly_instructions.md)** Le design de la main a légèrement changé depuis les vidéos, mes les écrous et les vis restent les mêmes.
 
-    ![image](../en/img/hand_nut.JPG)
+    ![image](../img/hand_nut.JPG)
 
 -   **Haut du bras [droit](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_upper_arm_assembly.md)/[gauche](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_upper_arm_assembly.md)**  Branchez un cable de 200mm dans le connecteur inutilisé avant de visser les moteurs arm\_z (ids 43 et 53), parce qu'il est vraiment difficile à brancher une fois à l'intérieur de la pièce de structure.
 

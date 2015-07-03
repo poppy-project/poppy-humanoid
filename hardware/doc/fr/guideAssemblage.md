@@ -1,10 +1,10 @@
----
-author:
-- 'Manon Cortial, Génération Robots'
-title: Poppy Humanoid Robot Assembly Guide
----
 
-![image](../en/img/poppy-logo.png) ![image](../en/img/GR-logo.png)
+# Guide d'assemblage pour le robot Poppy Humanoid
+
+Auteur : [Manon Cortial, Génération Robots](http://www.generationrobots.com/fr/278-le-robot-poppy-humanoid)
+
+
+![image](../img/poppy-logo.png) ![image](../img/GR-logo.png)
 
 # Introduction
 
@@ -14,7 +14,7 @@ Poppy est un projet de robotique open-hardware et open-source. Il a été créé
 
 Par exemple, des jambes de formes différentes ont été testées sur le robot Poppy Humanoid pour le faire marcher.
 
-![image](../en/img/humanoids2013_Experiments.png)
+![image](../img/humanoids2013_Experiments.png)
 
 ## Consignes de sécurité
 

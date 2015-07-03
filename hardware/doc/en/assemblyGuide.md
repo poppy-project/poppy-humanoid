@@ -1,10 +1,10 @@
----
-author:
-- 'Manon Cortial, Génération Robots'
-title: Poppy Humanoid Robot Assembly Guide
----
 
-![image](img/poppy-logo.png) ![image](img/GR-logo.png)
+# Poppy Humanoid Robot Assembly Guide
+
+Author : [Manon Cortial, Génération Robots](http://www.generationrobots.com/en/278-le-robot-poppy-humanoid)
+
+
+![image](../img/poppy-logo.png) ![image](../img/GR-logo.png)
 
 # Introduction
 
@@ -17,7 +17,7 @@ some parts of the body.
 For example, different leg shapes have been tested on the Poppy Humanoid
 robot to make the robot walk.
 
-![image](img/humanoids2013_Experiments.png)
+![image](../img/humanoids2013_Experiments.png)
 
 ## Safety warning
 
@@ -61,7 +61,7 @@ Poppy forum, on the [dedicated topic](https://forum.poppy-project.org/t/quicksta
 
 ## Assembly instructions
 
-<https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy\_Humanoid\_assembly\_instructions.md>
+<https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md>
 
 Bill of Material:
 
@@ -75,10 +75,10 @@ Poppy project forum: <https://forum.poppy-project.org/>
 
 herborist doc.: <http://poppy-project.github.io/pypot/herborist.html>
 
-Dynamixel wizard doc.: <http://support.robotis.com/en/software/roboplus/dynamixel\_monitor/quickstart/dynamixel\_monitor\_connection.htm>
+Dynamixel wizard doc.: <http://support.robotis.com/en/software/roboplus/dynamixel_monitor/quickstart/dynamixel_monitor_connection.htm>
 
 Bonjour software: <https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR>
 
-STL files: <https://github.com/poppy-project/poppy-humanoid/releases/download/Official\_1.0\_Hardware\_release/STL\_3D\_printed\_parts.zip>
+STL files: <https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip>
 
 

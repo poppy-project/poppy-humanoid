@@ -1,6 +1,6 @@
 ## Assemblage des jambes
 
-![image](../en/img/parts_legs.JPG)
+![image](../img/parts_legs.JPG)
 
  Il n'y a qu'une vidéo pour l'assemblage des jambes. Lors de l'assemblage de la jambe droite, assurez vous de mettre vos moteurs de façon symétrique par rapport à la jambe gauche. N'oubliez pas non plus de changer les IDs de 12 à 15 vers 22 à 25.
 

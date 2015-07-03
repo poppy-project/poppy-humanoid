@@ -32,7 +32,7 @@ Le logiciel est ensuite accessible directement depuis un terminal:
 
     sudo herborist
 
-![image](../en/img/herborist.png)
+![image](../img/herborist.png)
 
 Connectez chaque moteur **un par un** à l'USB2AX et utilisez le bouton 'scan' dans Herborist ou Dynamixel Wizard pour le détecter. Si c'est un moteur neuf, il devrais avoir l'ID 1 et un baudrate à 57600bps, sauf les AX-12A qui ont déjà leur baudrate à 1000000. 
 
@@ -50,6 +50,6 @@ Dans Herborist, n'oubliez pas de cliquer sur le bouton 'Update EEPROM' pour que 
 
 Si vous voulez que votre objet PoppyHumanoid corresponde à votre robot sans avoir à modifier le fichier de configuration, il faut vous conformer à la convention de nommage et d'adressage de Poppy Humanoid. Ainsi, dans vos programmes, quand vous utiliserez le nom d'un moteur, vous enverrez bien les ordres au moteur physique correspondant.
 
-![image](../en/img/motor_naming_convention.JPG)
+![image](../img/motor_naming_convention.JPG)
 
 

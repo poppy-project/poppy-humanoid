@@ -1,6 +1,6 @@
 ## Assemblage du tronc
 
-![image](../en/img/parts_chest.JPG)\
+![image](../img/parts_chest.JPG)\
 
 
 -   **[Double
@@ -18,7 +18,7 @@
 
 	La pièce "abdomen" a un marquage "Poppy" dans le dos alors que celle sur la vidéo n'en a pas. Il y a des trous qui permettent de visser le SMPS2Dynamixel pour éviter de le coller (utilisez des vis M2.5x8mm).
 
-	![image](../en/img/screwed_SMPS.JPG)\
+	![image](../img/screwed_SMPS.JPG)\
 
 Liste des moteurs:
 

@@ -1,12 +1,12 @@
 ## Arms assembly
 
-![image](img/parts_arms.JPG)\
+![image](../img/parts_arms.JPG)\
 
 -   **[Right](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_forearm_assembly_instructions.md)/[Left](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_forearm_assembly_instructions.md)
     forearm** The hand design slightly changed from the videos, but the
     nuts and screws remain the same.
 
-    ![image](img/hand_nut.JPG)
+    ![image](../img/hand_nut.JPG)
 
 -   **[Right](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_upper_arm_assembly.md)/[Left](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_upper_arm_assembly.md)
     upper arm** Plug a 200mm cable in the unused plug before screwing
