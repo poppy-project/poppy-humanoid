@@ -1,9 +1,9 @@
 
-## Head {#head-assembly}
+## Head assembly {#head-assembly}
 
-![image](img/parts_head.JPG)\
+![image](../img/parts_head.JPG)\
 
-![image](img/parts_electronics.JPG)\
+![image](../img/parts_electronics.JPG)\
 
 | Sub-assembly name |  Motor name |   Type  | ID |
 |-------------------|:-----------:|:-------:|:--:|
@@ -69,18 +69,18 @@ is ready.
 The last servomotor is head\_y, a AX-12A. Set its ID to 37 and response
 time to 0 (baudrate is already at 1000000).
 
-![image](img/neck1.JPG)
+![image](../img/neck1.JPG)
 
-Screw the neck to head\_z servo (2x8mm screws). There are marks on the
+Screw the neck to head\_z servo (M2x8mm screws). There are marks on the
 neck and on the servo to help you determine the orientation.
 
-![image](img/neck2.JPG)
+![image](../img/neck2.JPG)
 
 Put 2 nuts in the servo case and attach it in the head\_back part.
 
-![image](img/neck3.JPG)
+![image](../img/neck3.JPG)
 
-![image](img/neck4.JPG)\
+![image](../img/neck4.JPG)\
 
 Assemble the servo on the neck (2 screws on the controlled side, the big
 screw on the other side). You again have marks on the neck and on the
@@ -99,16 +99,16 @@ Use a 140mm cable to connect the head\_y motor to another USB2AX.
 Attach the camera support to head\_front using M2.5x4mm screws. Put tape
 on the screws to avoid electrical interferences with the camera board.
 
-![image](img/head_camera2.JPG)
+![image](../img/head_camera2.JPG)
 
-Attach the camera to its support using 3 2x6mm screws.
+Attach the camera to its support using 3 M2x6mm screws.
 
-![image](img/head_camera3.JPG)
+![image](../img/head_camera3.JPG)
 
 Put the screen and screen cover in the head. Attach the manga screen (or
-the fake one) with 2 2.5x6mm screws.
+the fake one) with 2 M2.5x6mm screws.
 
-![image](img/head_screen_cover.JPG) ![image](img/head_screen.JPG)
+![image](../img/head_screen_cover.JPG) ![image](img/head_screen.JPG)
 
 ### Electronics
 
@@ -118,38 +118,38 @@ If you don’t have pre-soldered components, see:
 Pass the Dynamixel connector of the Ubec through the hole in the head
 and connect it to the torso SMPS2Dynamixel.
 
-![image](img/power_wiring.JPG)
+![image](../img/power_wiring.JPG)
 
 Attach both the other side of Ubec and the Odroid power cable to the
 audio amplifier. Be sure no to allow any short-circuit.
 
-![image](img/head_ampli_power.JPG)
+![image](../img/head_ampli_power.JPG)
 
 Plug the audio jack. Wires order from left to right (when power terminal
 is farthest right): red-black-uncolored-white
 
-![image](img/audio_amp_connection_zoom.JPG)
+![image](../img/audio_amp_connection_zoom.JPG)
 
-Put 2 nuts around the flowers openings then attach the speakers using 2
+Put 2 nuts around the flowers openings then attach the speakers using M2
 x3mm screws.
 
-![image](img/head_speaker.JPG)
+![image](../img/head_speaker.JPG)
 
 Connect the speakers to audio ampli, left speaker black wire on Lout,
 Right ampli black wire on Rout.
 
-![image](img/head_wiring2.JPG)
+![image](../img/head_wiring2.JPG)
 
-Plug audio jack in Odroid, then use 2 2.5x8mm screws to attach the
+Plug audio jack in Odroid, then use 2 M2.5x8mm screws to attach the
 Odroid board. Make sure the Ethernet connector is correctly placed in
 front of the corresponding hole.
 
-![image](img/head_odroid.JPG)
+![image](../img/head_odroid.JPG)
 
 Plug the power jack. On the hub, plug the camera and the two USB2AXs.
 Plug the wifi dongle and the Razor board if you have them. Push the hub
 above the Odroid.
 
-![image](img/head_final.JPG)
+![image](../img/head_final.JPG)
 
-Then close the head using 3 2x8mm screws.
+Then close the head using 3 M2x8mm screws.
