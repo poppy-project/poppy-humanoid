@@ -24,9 +24,9 @@ Soyez donc très prudent et ne testez vos programmes que lorsque le robot est da
 
 ## A propos de cette documentation
 
-Cette documentation contient des conseils et des instructions pour construire un robot Poppy Humanoid. Elle ne remplace pas les vidéos faites par l'INRIA, mais les complète et parfois les met à jour.
+Cette documentation vous guidera tout au long de l'assemblage de votre robot Poppy Humanoid. Elle contient les liens vers les vidéos de montage, mais aussi des images pour vous aider à identifier les différentes pièces et des conseils.
 
-Elle contient une brève description du matériel Dynamixel et de la façon de le monter ([Materiel Dynamixel](materiel_dynamixel.md)), ainsi qu'un guide de paramétrage des moteurs ([Adressage des Dynamixel](adressage_dynamixel.md)).
+Commencez par vous familiariser avec le matériel Dynamixel et de la façon de le monter ([Materiel Dynamixel](materiel_dynamixel.md)), ainsi qu'un guide de paramétrage des moteurs ([Adressage des Dynamixel](adressage_dynamixel.md)).
 
 N'hésitez pas à améliorer cette documentation et à signaler les erreurs sur ce [sujet](https://forum.poppy-project.org/t/quickstart-assembly-and-programming-plus-some-code-examples/1228) du forum Poppy.
 
@@ -39,7 +39,7 @@ N'hésitez pas à améliorer cette documentation et à signaler les erreurs sur 
 - [**Assemblage des jambes >>**](assemblage_jambes.md)
 - [**Assemblage de la tête >>**](assemblage_tete.md)
 
-# Liens utiles {#documentation-links}
+# Liens utiles
 
 ## Instructions d'assemblage
 

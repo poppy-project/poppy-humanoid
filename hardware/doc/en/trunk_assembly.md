@@ -2,6 +2,19 @@
 
 ![image](img/parts_chest.JPG)\
 
+Motors list:
+
+| Sub-assembly name |   Motor name   |   Type  | ID |
+|-------------------|:--------------:|:-------:|:--:|
+| Double MX64       |     abs\_y     | MX-64AT | 31 |
+| Double MX64       |     abs\_x     | MX-64AT | 32 |
+| Spine             |     abs\_z     | MX-28AT | 33 |
+| Double MX28       |     bust\_y    | MX-28AT | 34 |
+| Double MX28       |     bust\_x    | MX-28AT | 35 |
+| Chest             |     head\_z    |  AX-12A | 36 |
+| Chest             | l\_shoulder\_y | MX-28AT | 41 |
+| Chest             | r\_shoulder\_y | MX-28AT | 51 |
+
 -   **[Double
     MX64](https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double_MX64_assembly.md)**
 
@@ -29,15 +42,35 @@
 
     ![image](img/screwed_SMPS.JPG)
 
-Motors list:
+### Assemble trunk and arms:
 
-| Sub-assembly name |   Motor name   |   Type  | ID |
-|-------------------|:--------------:|:-------:|:--:|
-| Double MX64       |     abs\_y     | MX-64AT | 31 |
-| Double MX64       |     abs\_x     | MX-64AT | 32 |
-| Spine             |     abs\_z     | MX-28AT | 33 |
-| Double MX28       |     bust\_y    | MX-28AT | 34 |
-| Double MX28       |     bust\_x    | MX-28AT | 35 |
-| Chest             |     head\_z    |  AX-12A | 36 |
-| Chest             | l\_shoulder\_y | MX-28AT | 41 |
-| Chest             | r\_shoulder\_y | MX-28AT | 51 |
+- Preparation: 5 min
+- Assembly: 15-20 min
+
+#### Requirements
+
+![](img/poppy_torso_assembly_BOM.jpg)
+
+**Sub-assemblies:**
+- Trunk
+- Left arm
+- Right arm
+
+**3D printed parts:**
+- Left shoulder
+- right shoulder
+
+**Cables:**
+- 2x 3P 200mm
+
+**Robotis parts:**
+- 48x Bolts M2x3
+
+**Motor configuration:**
+- 1x Alimentation 12V
+- 1x SMPS2Dynamixel
+- 1x USB2Dynamixel or USB2AX
+- A computer...
+
+
+#### <a href="http://youtu.be/uDhLIS3vxM4" target="_blank">**VIDEO INSTRUCTIONS**</a>
