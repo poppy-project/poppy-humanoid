@@ -30,18 +30,12 @@ programs.
 
 ## About this documentation
 
-This documentation contains some help and tips to build a Poppy Humanoid
-robot. It does not replace the videos made by Inria, but complete and
-sometimes corrects or updates them.
+This documentation will guide you through the complete assembly of a Poppy Humanoid
+robot, giving your links to the instruction videos, but also pictures of all the parts to help you name them and assembly tips
 
-It contains a bit of context about Dynamixel servomotors and how to
+Get started by reading a bit about Dynamixel servomotors and how to
 assemble them ([Dynamixel Hardware](dynamixel_hardware.md)) and also how to set the
 right parameters for them ([Addressing Dynamixel](addressing_dynamixel.md)).
-
-You will also find pictures of all the parts to help you name them and assembly tips and links to the
-assembly videos. As there is no video for
-the head assembly, this doc contains a pretty complete guide for head
-assembly.
 
 Please don’t hesitate to comment and correct this documentation on the
 Poppy forum, on the [dedicated topic](https://forum.poppy-project.org/t/quickstart-assembly-and-programming-plus-some-code-examples/1228).
