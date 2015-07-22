@@ -1,4 +1,6 @@
-# Addressing Dynamixel motors 
+
+# Addressing Dynamixel motors
+
 
 By default, every Dynamixel servomotor has its ID set to 1. To use
 several servomotors in a serial way, each of them must have a unique ID.

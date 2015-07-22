@@ -54,6 +54,6 @@ Si vous voulez que votre objet PoppyHumanoid corresponde à votre robot sans avo
 
 
 [**<< Retour au menu**](guideAssemblage.md)
-[**<< Mat�riel Dynamixel**](materiel_dynamixel.md)
+[**<< Matériel Dynamixel**](materiel_dynamixel.md)
 
 
