@@ -18,6 +18,8 @@ Liste des moteurs:
 | Haut du bras droit          | Right upper arm|    r\_arm\_z   | MX-28AT | 53 |
 | Haut du bras droit          | Right upper arm|   r\_elbow\_y  | MX-28AT | 54 |
 
+**Rappel** : faites attention à l'orientation quand vous montez les [palonniers Dynamixel](materiel_dynamixel.md)
+
 
 -   **Avant bras [droit](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_forearm_assembly_instructions.md)/[gauche](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_forearm_assembly_instructions.md)** Le design de la main a légèrement changé depuis les vidéos, mes les écrous et les vis restent les mêmes.
 
@@ -33,4 +35,6 @@ Liste des moteurs:
      Pour distinguer les pièces left shoulder et right shoulder, regardez les trois points gravés dessus: le point isolé doit être en bas quand l'épaule est en position zéro (le long du moteur shoulder\_y).
 
 
+[**<< Retour au menu**](guideAssemblage.md)
 
+[**Assemblage du tronc >>**](assemblage_tronc.md)

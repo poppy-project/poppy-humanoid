@@ -15,7 +15,7 @@ next one.
 
 ![image](../img/daisy_link.JPG)
 
-## Putting the Dynamixel horns to zero {#dynamixel-zero}
+## Putting the Dynamixel horns to zero 
 
 When you receive your Dynamixel servomotors, the horns are not mounted.
 They are included in the packaging if the servo is packaged alone or
@@ -91,3 +91,6 @@ These nuts correspond to diameter 2.5mm screws, Allen wrench 2mm.
 
 To build a full Poppy Humanoid robot, an electrical screwdriver is
 strongly advised!
+
+[**<< Back to menu**](assemblyGuide.md)
+[**<< Addressing Dynamixel**](addressing_dynamixel.md)

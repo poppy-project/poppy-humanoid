@@ -1,4 +1,4 @@
-# Addressing Dynamixel motors {#addressing-poppys-motors}
+# Addressing Dynamixel motors 
 
 By default, every Dynamixel servomotor has its ID set to 1. To use
 several servomotors in a serial way, each of them must have a unique ID.
@@ -69,4 +69,7 @@ Poppy Humanoid robot naming and addressing convention. This will ensure
 that, in your code, when you use a motor’s name, you will really send
 orders to the corresponding physical motor.
 
-![image](../img/motor_naming_convention.JPG)
+![image](../img/motor_naming_convention.jpg)
+
+[**<< Back to menu**](assemblyGuide.md)
+[**<< Dynamixel hardware**](dynamixel_hardware.md)

@@ -1,4 +1,4 @@
-# Adresser les servomoteurs Dynamixel {#addressing-poppys-motors}
+# Adresser les servomoteurs Dynamixel 
 
 Par défaut, tous les servomoteurs Dynamixel ont un ID égal à 1. Pour pouvoir utiliser plusieurs servomoteurs en série, chacun d'entre eux doit avoir un ID unique.
 
@@ -50,6 +50,10 @@ Dans Herborist, n'oubliez pas de cliquer sur le bouton 'Update EEPROM' pour que 
 
 Si vous voulez que votre objet PoppyHumanoid corresponde à votre robot sans avoir à modifier le fichier de configuration, il faut vous conformer à la convention de nommage et d'adressage de Poppy Humanoid. Ainsi, dans vos programmes, quand vous utiliserez le nom d'un moteur, vous enverrez bien les ordres au moteur physique correspondant.
 
-![image](../img/motor_naming_convention.JPG)
+![image](../img/motor_naming_convention.jpg)
+
+
+[**<< Retour au menu**](guideAssemblage.md)
+[**<< Mat�riel Dynamixel**](materiel_dynamixel.md)
 
 

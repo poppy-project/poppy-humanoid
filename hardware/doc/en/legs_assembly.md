@@ -25,6 +25,8 @@ Motors lists:
 | Right thigh       |  r\_knee\_y | MX-28AT | 24 |
 | Right shin        | r\_ankle\_y | MX-28AT | 25 |
 
+**Reminder**: be careful with orientation while mounting [Dynamixel horns](dynamixel_hardware.md)
+
 -   **[Hip](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left_hip_assembly_instructions.md)**
 
 -   **[Tight](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left_thigh_assembly_instructions.md)**
@@ -43,8 +45,7 @@ Motors lists:
 -   **[Torso and legs
     assembly](https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/Poppy_Humanoid_assembly_instructions.md)**
 
-
-### Legs/Torso asembly
+### Legs/Torso assembly
 - Preparation: 5 min
 - Assembly: 5-10 min
 
@@ -71,3 +72,6 @@ Motors lists:
 
 #### <a href="http://youtu.be/5i0xVlrJc-8" target="_blank">**VIDEO INSTRUCTIONS**</a>
 
+[**<< Back to menu**](assemblyGuide.md)
+
+[**Trunk assembly >>**](trunk_assembly.md)

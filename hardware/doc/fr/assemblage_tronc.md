@@ -1,6 +1,6 @@
 ## Assemblage du tronc
 
-![image](../img/parts_chest.JPG)\
+![image](../img/parts_chest.JPG)
 
 
 Liste des moteurs:
@@ -16,6 +16,7 @@ Liste des moteurs:
 | Poitrine       | Chest             | l\_shoulder\_y | MX-28AT | 41 |
 | Poitrine       | Chest             | r\_shoulder\_y | MX-28AT | 51 |
 
+**Rappel** : faites attention à l'orientation quand vous montez les [palonniers Dynamixel](materiel_dynamixel.md)
 
 -   **[Double
     MX64](https://github.com/poppy-project/Robotis-library/blob/master/doc/en/double_MX64_assembly.md)**
@@ -32,7 +33,7 @@ Liste des moteurs:
 
 	La pièce "abdomen" a un marquage "Poppy" dans le dos alors que celle sur la vidéo n'en a pas. Il y a des trous qui permettent de visser le SMPS2Dynamixel pour éviter de le coller (utilisez des vis M2.5x8mm).
 
-	![image](../img/screwed_SMPS.JPG)\
+	![image](../img/screwed_SMPS.JPG)
 
 
 ###  Assemblage du tronc et des bras:
@@ -45,9 +46,9 @@ Liste des moteurs:
 ![](img/poppy_torso_assembly_BOM.jpg)
 
 **Sous-assemblages:**
-- Trunk
-- Left arm
-- Right arm
+- Tronc
+- Bras gauche
+- Bras droit
 
 **Pièces imprimées en 3D:**
 - Left shoulder
@@ -62,9 +63,17 @@ Liste des moteurs:
 **Configuration des moteurs:**
 - 1x Alimentation 12V
 - 1x SMPS2Dynamixel
-- 1x USB2Dynamixel or USB2AX
+- 1x USB2Dynamixel ou USB2AX
 - Un ordinateur...
 
 
 #### <a href="http://youtu.be/uDhLIS3vxM4" target="_blank">**INSTRUCTIONS VIDEO**</a>
 
+
+[**<< Retour au menu**](guideAssemblage.md)
+
+[**Assemblage des bras >>**](assemblage_bras.md)
+
+[**Assemblage des jambes >>**](assemblage_jambes.md)
+
+[**Assemblage de la tête >>**](assemblage_tete.md)

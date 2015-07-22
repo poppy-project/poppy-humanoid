@@ -23,6 +23,7 @@ Listes des moteurs:
 | Cuisse droite         | Right thigh       |  r\_knee\_y | MX-28AT | 24 |
 | Mollet droit         | Right shin        | r\_ankle\_y | MX-28AT | 25 |
 
+**Rappel** : faites attention à l'orientation quand vous montez les [palonniers Dynamixel](materiel_dynamixel.md)
 
 -   **[Hanche](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/left_hip_assembly_instructions.md)**
 
@@ -64,3 +65,6 @@ Listes des moteurs:
 #### <a href="http://youtu.be/5i0xVlrJc-8" target="_blank">**INSTRUCTIONS VIDEO**</a>
 
 
+[**<< Retour au menu**](guideAssemblage.md)
+
+[**Assemblage du tronc >>**](assemblage_tronc.md)
