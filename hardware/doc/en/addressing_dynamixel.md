@@ -38,8 +38,9 @@ servomotors registers:
 Herborist comes with the Pypot library, but needs the additional library
 PyQt4 for graphical interface (sudo may not be needed).
 
+    sudo apt-get install python-qt4 python-numpy python-scipy python-pip
     sudo pip install pypot
-    sudo apt-get install python-qt4
+    
 
 It should then be directly accessible in a terminal:
 
