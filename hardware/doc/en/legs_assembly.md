@@ -1,7 +1,7 @@
 # Legs assembly
 
 **Steps:**
-1. Pelis
+1. Pelvis
 2. Left Leg
 3. Right Leg
 4. Legs assembly
@@ -10,6 +10,9 @@
 **3D printed parts required:**
 ![image](../img/parts_legs.JPG)
 
+
+
+**Reminder**: be careful with orientation while mounting [Dynamixel horns](dynamixel_hardware.md)
 
 
 <hr />
@@ -26,8 +29,6 @@
 
 <hr />
 ## 2. Left leg:
-
-Motors lists:
 
 | Sub-assembly name |  Motor name |   Type  | ID |
 |-------------------|:-----------:|:-------:|:--:|
@@ -60,9 +61,11 @@ If you received your Poppy kit from Generation Robots, you can use the custom 22
 | Right thigh       |  r\_knee\_y | MX-28AT | 24 |
 | Right shin        | r\_ankle\_y | MX-28AT | 25 |
 
+
+
 ## Sub-assemblies instructions
 
-- **[Right Hip](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/right_hip_assembly_instructions.md)**
+-   **[Right Hip](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/right_hip_assembly_instructions.md)**
 
 -   **[Right Tigh](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/subassemblies/right_thigh_assembly_instructions.md)**
 
@@ -75,12 +78,14 @@ If you received your Poppy kit from Generation Robots, you can use the custom 22
 
 <hr />
 
+
 ## 4. [Legs/pelvis assembly >>](https://github.com/poppy-project/Poppy-lightweight-biped-legs/blob/master/doc/legs_assembly_instructions.md)
 
 <hr />
 
 
-## 5. Legs/Torso asembly
+## 5. Legs/Torso assembly
+
 - Preparation: 5 min
 - Assembly: 5-10 min
 
@@ -104,5 +109,9 @@ If you received your Poppy kit from Generation Robots, you can use the custom 22
 - 1x USB2Dynamixel or USB2AX
 - A computer...
 
-
 #### [VIDEO INSTRUCTIONS](http://youtu.be/5i0xVlrJc-8)
+
+[**<< Back to menu**](assemblyGuide.md)
+
+[**Trunk assembly >>**](trunk_assembly.md)
+

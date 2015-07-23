@@ -1,5 +1,5 @@
 
-## Assemblage de la tête {#head-assembly}
+## Assemblage de la tête 
 
 ![image](../img/parts_head.JPG)\
 
@@ -84,7 +84,7 @@ Attachez la caméra à son support avec 3 vis M2x6mm.
 
 Mettez les pièce screen et screen cover dans la tête. Attachez le manga screen (ou le faux) avec 2 vis M2.5x6mm.
 
-![image](../img/head_screen_cover.JPG) ![image](img/head_screen.JPG)
+![image](../img/head_screen_cover.JPG) ![image](../img/head_screen.JPG)
 
 ### Composants électroniques
 
@@ -100,7 +100,7 @@ Attachez l'autre côté de l'Ubec et le câble d'alimentation de l'Odroid à l'a
 
 Connectez la prise audio : de la gauche vers la droite (quand le bornier d'alimentation est complètement à droite): rouge-noir-sans couleur-blanc.
 
-![image](../img/audio_amp_connection_zoom.JPG)
+![image](../img/audio_amp_connection_zoom.jpg)
 
 Utilisez des écrous de M2 autour des ouvertures en forme de fleur et attachez les haut-parleurs avec des vis M2 x3mm.
 
@@ -121,3 +121,6 @@ Branchez le câble d'alimentation. Sur le hub USB, branchez la caméra et les de
 
  Puis fermez la tête avec 3 vis M2x8mm.
 
+[**<< Retour au menu**](guideAssemblage.md)
+
+[**Assemblage du tronc >>**](assemblage_tronc.md)

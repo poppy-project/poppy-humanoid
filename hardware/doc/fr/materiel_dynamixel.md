@@ -6,7 +6,7 @@ Chaque servomoteur Dynamixel embarque une carte électronique qui lui permet de 
 
 ![image](../en/img/daisy_link.JPG)
 
-## Mettre le zéro des palonniers Dynamixel {#dynamixel-zero}
+## Mettre le zéro des palonniers Dynamixel
 
 
 ** Cette étape est cruciale pour éviter d'endommager vos servomoteurs de façon permanente !**
@@ -61,7 +61,8 @@ Ces écrous correspondent à des vis de diamètre 2.5.
 Pour construire un Poppy Humanoid entier, un tournevis electrique est fortement conseillé ! 
 
 
-
+[**<< Retour au menu**](guideAssemblage.md)
+[**<< Addressage des Dynamixel**](addressage_dynamixel.md)
 
 
 

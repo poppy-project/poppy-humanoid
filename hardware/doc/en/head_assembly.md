@@ -1,5 +1,5 @@
 
-## Head assembly {#head-assembly}
+## Head assembly 
 
 ![image](../img/parts_head.JPG)\
 
@@ -108,7 +108,7 @@ Attach the camera to its support using 3 M2x6mm screws.
 Put the screen and screen cover in the head. Attach the manga screen (or
 the fake one) with 2 M2.5x6mm screws.
 
-![image](../img/head_screen_cover.JPG) ![image](img/head_screen.JPG)
+![image](../img/head_screen_cover.JPG) ![image](../img/head_screen.JPG)
 
 ### Electronics
 
@@ -128,7 +128,7 @@ audio amplifier. Be sure no to allow any short-circuit.
 Plug the audio jack. Wires order from left to right (when power terminal
 is farthest right): red-black-uncolored-white
 
-![image](../img/audio_amp_connection_zoom.JPG)
+![image](../img/audio_amp_connection_zoom.jpg)
 
 Put 2 nuts around the flowers openings then attach the speakers using M2
 x3mm screws.
@@ -153,3 +153,7 @@ above the Odroid.
 ![image](../img/head_final.JPG)
 
 Then close the head using 3 M2x8mm screws.
+
+[**<< Back to menu**](assemblyGuide.md)
+
+[**Trunk assembly >>**](trunk_assembly.md)

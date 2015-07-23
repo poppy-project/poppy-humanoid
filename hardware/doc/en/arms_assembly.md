@@ -2,6 +2,24 @@
 
 ![image](../img/parts_arms.JPG)\
 
+
+Motors lists:
+
+| Sub-assembly name       	|  Motor name  	|   Type  	| ID 	|
+|-------------------------	|:------------:	|:-------:	|:--:	|
+| Left upper arm/shoulder 	| l\_shoulder\_x 	| MX-28AT 	| 42 	|
+| Left upper arm          	|   l\_arm\_z  	| MX-28AT 	| 43 	|
+| Left upper arm          	|  l\_elbow\_y 	| MX-28AT 	| 44 	|
+
+
+| Sub-assembly name        |   Motor name   |   Type  | ID |
+|--------------------------|:--------------:|:-------:|:--:|
+| Right upper arm/shoulder | r\_shoulder\_x | MX-28AT | 52 |
+| Right upper arm          |    r\_arm\_z   | MX-28AT | 53 |
+| Right upper arm          |   r\_elbow\_y  | MX-28AT | 54 |
+
+**Reminder**: be careful with orientation while mounting [Dynamixel horns](dynamixel_hardware.md)
+
 -   **[Right](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_forearm_assembly_instructions.md)/[Left](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_forearm_assembly_instructions.md)
     forearm** The hand design slightly changed from the videos, but the
     nuts and screws remain the same.
@@ -25,17 +43,8 @@
     three dots: the single dot should be down when the shoulder is in
     “zero” position (along the shoulder\_y motor).
 
-Motors lists:
-
-| Sub-assembly name       	|  Motor name  	|   Type  	| ID 	|
-|-------------------------	|:------------:	|:-------:	|:--:	|
-| Left upper arm/shoulder 	| l\_shoulder\_x 	| MX-28AT 	| 42 	|
-| Left upper arm          	|   l\_arm\_z  	| MX-28AT 	| 43 	|
-| Left upper arm          	|  l\_elbow\_y 	| MX-28AT 	| 44 	|
 
 
-| Sub-assembly name        |   Motor name   |   Type  | ID |
-|--------------------------|:--------------:|:-------:|:--:|
-| Right upper arm/shoulder | r\_shoulder\_x | MX-28AT | 52 |
-| Right upper arm          |    r\_arm\_z   | MX-28AT | 53 |
-| Right upper arm          |   r\_elbow\_y  | MX-28AT | 54 |
+[**<< Back to menu**](assemblyGuide.md)
+
+[**Trunk assembly >>**](trunk_assembly.md)
