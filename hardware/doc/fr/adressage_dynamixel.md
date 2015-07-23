@@ -6,9 +6,10 @@ Par défaut, tous les servomoteurs Dynamixel ont un ID égal à 1. Pour pouvoir 
 
 USB2AX est le composant qui va connecter la tête de poppy Humanoid aux servomoteurs Dynamixel. Il peut également être utilisé pour contrôler les servomoteurs directement depuis votre ordinateur et c'est ce que nous allons faire pour adresser les moteur (leur assigner un ID).
 
-Sous Linux, aucune installation n'est requise, mais vous devez vous ajouter dans le groupe dialout pouravoir accès au port USB (remplacez "username" par votre nom d'utilisateur linux):
+Sous Linux, aucune installation n'est requise, mais vous devez ajouter votre utilisateur dans le groupe qui possède le port série. Selon la distribution c'est *dialout* ou *uucp*:
 
-    sudo addgroup "username" dialout
+   sudo addgroup $USER dialout
+   sudo addgroup $USER uucp
 
 Autrement, le driver est accessible [ici](http://www.xevelabs.com/doku.php?id=product:usb2ax:quickstart).
 
@@ -25,12 +26,12 @@ Vous pouvez utiliser l'un des deux logiciels suivants pour accéder aux registre
 
 Herborist est intégré dans Pypot mais nécessite une librairie supplémentaire, PyQT4, pour l'interface graphique.
 
+    sudo apt-get install python-qt4 python-numpy python-scipy python-pip
     sudo pip install pypot
-    sudo apt-get install python-qt4
 
 Le logiciel est ensuite accessible directement depuis un terminal:
 
-    sudo herborist
+    herborist
 
 ![image](../img/herborist.png)
 
