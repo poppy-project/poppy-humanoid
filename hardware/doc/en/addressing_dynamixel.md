@@ -44,7 +44,7 @@ PyQt4 for graphical interface (sudo may not be needed).
 
 It should then be directly accessible in a terminal:
 
-    sudo herborist
+    herborist
 
 ![image](../img/herborist.png)
 
