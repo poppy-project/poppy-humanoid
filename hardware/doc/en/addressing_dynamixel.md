@@ -12,8 +12,7 @@ to the Dynamixel servomotors. It can also be used to control the
 servomotors directly from your computer and that’s what we will do to
 address the motors.
 
-On Linux, no installation is needed, but you must add yourself in the group which own the USB serial ports. It is "dialout" or "uucp" depending on your distribution.
-dialout group to have access to the USB port:
+On Linux, no installation is needed, but you must add yourself in the group which own the USB serial ports. It is "dialout" or "uucp" depending on your distribution:
 
     sudo addgroup $USER dialout
     sudo addgroup $USER uucp
