@@ -1,4 +1,4 @@
-## Assemblage des bras
+# Assemblage des bras
 
 ![image](../img/parts_arms.JPG)\
 

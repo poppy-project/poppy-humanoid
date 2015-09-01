@@ -1,5 +1,5 @@
 
-## Assemblage de la tête 
+# Assemblage de la tête 
 
 ![image](../img/parts_head.JPG)\
 
@@ -9,7 +9,7 @@
 |-------------------|:-----------:|:-------:|:--:|
 | Tête              | Head              |   head\_y   | AX-12A  | 37 |
 
-### Préparation de la carte Odroid
+## Préparation de la carte Odroid
 
 Normalement, vous recevez la carte Odroid avec un module eMMC avec Ubuntu 14.04 déjà installé (il doit y avoir un sticker rouge sur la carte). Vous n'avez plus qu'à la brancher sur la carte Odroid et à l'alimenter. Une fois démarrée, vous devriez voir une led rouge fixe et une led bleu clignotante.
 
@@ -48,11 +48,11 @@ Vous perdez la connexion. Le hostname et le mot de passe de la carte ont changé
 
 Vous l'avez deviné, le mot de passe est maintenant poppy. L'installation se fait automatiquement (et prend beaucoup de temps). Quand vous voyez 'System install complete', faites un Ctrl+C pour finir. Après un nouveau redémarrage, votre carte Odroid est prête.
 
-### Assemblage du cou
+## Assemblage du cou
 
 Le dernier servomoteur est head\_y, un AX-12A. Changez son ID pour 37 et son temps de réponse pour 0 (son baudrate est déjà à 1000000).
 
-![image](img/neck1.JPG)
+![image](../img/neck1.JPG)
 
  Vissez le cou au servo head\_z (vis de M2x8mm). Il y a des marques sur le servo pour vous aider à l'orienter correctement.
 
@@ -72,7 +72,7 @@ Branchez un câble de 50cm sur le SMPS2Dynamixel du pelvis et faites le passer d
 
 Utilisez un câble de 140mm pour connecter le moteur head\_y à un autre USB2AX.
 
-### Caméra et écran
+## Caméra et écran
 
 Attachez le support de la caméra à head\_front avec des vis M2.5x4mm. Ajoutez du scotch pour éviter les interférence electriques avec la carte de la caméra.
 
@@ -86,7 +86,7 @@ Mettez les pièce screen et screen cover dans la tête. Attachez le manga screen
 
 ![image](../img/head_screen_cover.JPG) ![image](../img/head_screen.JPG)
 
-### Composants électroniques
+## Composants électroniques
 
 Si vous n'avez pas le composants pré-soudés, suivez d'abord ces instructions: <https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/poppy_soldering.md>
 

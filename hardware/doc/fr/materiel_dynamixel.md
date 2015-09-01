@@ -4,7 +4,7 @@ Le robot Poppy Humanoid est principalement actionné par des servomoteurs [Dynam
 
 Chaque servomoteur Dynamixel embarque une carte électronique qui lui permet de recevoir différents types d'ordres (en position, vitesse, couple maximal...) et de communiquer avec d'autres servomoteurs Dynamixel.C'est pourquoi vous pouvez brancher les servomoteurs en série (avec un ID différent pour chacun) et les commander tous depuis l'un des bouts de la chaîne: chaque servomoteur transmettra les ordres au suivant.
 
-![image](../en/img/daisy_link.JPG)
+![image](../img/daisy_link.JPG)
 
 ## Mettre le zéro des palonniers Dynamixel
 
@@ -15,11 +15,11 @@ Quand vous recevez vos servomoteurs Dynamixel, les palonniers (les pièces mobil
 
 En mettant le palonnier asservi, faites très attention à **aligner la marque sur le palonnier à celle sur le servo**. Une fois que le palonnier est mis, il est la plupart du temps **impossible à enlever** ! Ceci assure que la position zéro du servomoteur correspond à la position zéro de la structure mécanique.
 
-![image](../en/img/zero.JPG) ![image](../en/img/zero2.JPG)
+![image](../img/zero.JPG) ![image](../img/zero2.JPG)
 
 Sur l'extérieur du palonnier, vous avez trois points indiquant l'orientation. Vous trouverez les mêmes trois points sur les pièces de structure, soyez attentif à les aligner correctement.
 
-![image](../en/img/zero3.JPG)
+![image](../img/zero3.JPG)
 
 ## Palonniers des MX-28 et MX-64
 
@@ -27,13 +27,13 @@ Sur chaque servomoteur Dynamixel à part les AX-12A, you aurez à monter le palo
 
 Pour assembler le palonnier principal, mettez d'abord la rondelle de plastique (blanche ou noire) puis enfoncez le palonnier sur l'axe. **Attention à la position du zéro en mettant le palonnier principal !** Mettez ensuite du frein filet sur la grosse vis et vissez là au centre.
 
-![image](../en/img/MX28N.JPG)
+![image](../img/MX28N.JPG)
 
 Palonnier principal monté sur un MX-28.
 
 Pour le palonnier libre, positionnez le roulement à billes et le capuchon du côté côté avec un renfoncement. Mettez le palonnier sur le servomoteur avec le capuchon vers l'extérieur. Mettz du frein filet sur la grosse vis et vissez là au centre. Le palonnier doit tourner librement.
 
-![image](../en/img/MX64I1.JPG) ![image](../en/img/MX64I2.JPG) ![image](../en/img/MX64I3.JPG)
+![image](../img/MX64I1.JPG) ![image](../img/MX64I2.JPG) ![image](../img/MX64I3.JPG)
 
 Palonnier libre monté sur un MX-24
 
@@ -54,7 +54,7 @@ Pour attacher les pièces de structure sur le boitier des servomoteurs, il faut 
 
 Voici une astuce: Manipulez l'écrou en utilisant une brucelle. Approchez le de son emplacement avec la bonne orientation et mettez le bout de la brucelle dans le trou pour assurer l'alignement. Utilisez ensuite une pince plate pour insérer l'écrou.
 
-![image](../en/img/nuts1.JPG) ![image](../en/img/nuts2.JPG) ![image](../en/img/nuts3.JPG)
+![image](../img/nuts1.JPG) ![image](../img/nuts2.JPG) ![image](../img/nuts3.JPG)
 
 Ces écrous correspondent à des vis de diamètre 2.5.
 
