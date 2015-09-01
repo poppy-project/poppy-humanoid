@@ -1,4 +1,4 @@
-## Assemblage du tronc
+# Assemblage du tronc
 
 ![image](../img/parts_chest.JPG)
 
@@ -36,14 +36,14 @@ Liste des moteurs:
 	![image](../img/screwed_SMPS.JPG)
 
 
-###  Assemblage du tronc et des bras:
+##  Assemblage du tronc et des bras:
 
 - Preparation: 5 min
 - Assemblage: 15-20 min
 
-#### Matériel
+### Matériel
 
-![](img/poppy_torso_assembly_BOM.jpg)
+![](../img/poppy_torso_assembly_BOM.jpg)
 
 **Sous-assemblages:**
 - Tronc
@@ -67,7 +67,7 @@ Liste des moteurs:
 - Un ordinateur...
 
 
-#### <a href="http://youtu.be/uDhLIS3vxM4" target="_blank">**INSTRUCTIONS VIDEO**</a>
+### <a href="http://youtu.be/uDhLIS3vxM4" target="_blank">**INSTRUCTIONS VIDEO**</a>
 
 
 [**<< Retour au menu**](guideAssemblage.md)

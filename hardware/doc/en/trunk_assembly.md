@@ -51,7 +51,7 @@ Motors list:
 
 #### Requirements
 
-![](img/poppy_torso_assembly_BOM.jpg)
+![](../img/poppy_torso_assembly_BOM.jpg)
 
 **Sub-assemblies:**
 - Trunk
