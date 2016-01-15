@@ -1,5 +1,4 @@
 import os
-import sys
 import numpy
 import ctypes
 
@@ -15,6 +14,7 @@ from .primitives.interaction import ArmsTurnCompliant, PuppetMaster
 
 
 class PoppyHumanoid(AbstractPoppyCreature):
+
     @classmethod
     def setup(cls, robot):
         robot._primitive_manager._filter = partial(numpy.sum, axis=0)
@@ -30,6 +30,11 @@ class PoppyHumanoid(AbstractPoppyCreature):
             m.compliant_behavior = 'safe'
 
         # Attach default primitives:
+        if not robot.simulated:
+            sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                      'media', 'sounds', 'error.wav')
+            robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
+            robot.temperature_monitoring.start()
 
         # basic primitives:
         robot.attach_primitive(StandPosition(robot), 'stand_position')
@@ -38,11 +43,6 @@ class PoppyHumanoid(AbstractPoppyCreature):
         # Safe primitives:
         robot.attach_primitive(LimitTorque(robot), 'limit_torque')
         # robot.limit_torque.start()
-
-        sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                  'media', 'sounds', 'error.wav')
-        robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
-        robot.temperature_monitoring.start()
 
         # Dance primitive:
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
