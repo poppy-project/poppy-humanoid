@@ -8,8 +8,10 @@ USB2AX est le composant qui va connecter la tête de poppy Humanoid aux servomot
 
 Sous Linux, aucune installation n'est requise, mais vous devez ajouter votre utilisateur dans le groupe qui possède le port série. Selon la distribution c'est *dialout* ou *uucp*:
 
+```
    sudo addgroup $USER dialout
    sudo addgroup $USER uucp
+```
 
 Autrement, le driver est accessible [ici](http://www.xevelabs.com/doku.php?id=product:usb2ax:quickstart).
 
