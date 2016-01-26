@@ -21,7 +21,7 @@ Liste des moteurs:
 **Rappel** : faites attention à l'orientation quand vous montez les [palonniers Dynamixel](materiel_dynamixel.md)
 
 
--   **Avant bras [droit](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_forearm_assembly_instructions.md)/[gauche](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_forearm_assembly_instructions.md)** Le design de la main a légèrement changé depuis les vidéos, mes les écrous et les vis restent les mêmes.
+-   **Avant bras [droit](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/right_forearm_assembly_instructions.md)/[gauche](https://github.com/poppy-project/Poppy-basic-arms/blob/master/doc/subassemblies/left_forearm_assembly_instructions.md)** Le design de la main a légèrement changé depuis les vidéos, mais les écrous et les vis restent les mêmes.
 
     ![image](../img/hand_nut.JPG)
 
