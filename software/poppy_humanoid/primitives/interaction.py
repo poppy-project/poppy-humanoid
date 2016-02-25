@@ -3,6 +3,42 @@ from collections import deque
 
 from pypot.primitive import LoopPrimitive
 
+class TorsoTurnCompliant(LoopPrimitive):
+    """ Automatically turns the torso motors compliant when a force is applied. """
+
+    def setup(self):
+        self.compliance_torque_threshold = {
+            'head_z' : 0,
+            'head_y' : 0,
+
+            'abs_z' : 3,
+
+            'bust_y' : 14,
+            'bust_x' : 14,
+
+            'l_shoulder_y' : 11,
+            'l_shoulder_x' : 9,
+            'l_arm_z' : 3,
+            'l_elbow_y' : 3,
+
+            'r_shoulder_y' : 11,
+            'r_shoulder_x' : 9,
+            'r_arm_z' : 3,
+            'r_elbow_y' : 3,
+        }
+
+        for m in self.robot.motors:
+            m.compliant = False
+            m.torque_limit = self.compliance_torque_threshold[m.name]
+
+    def update(self):
+        for m in self.robot.motors:
+            if m.name in self.compliance_torque_threshold.keys():
+                if abs(m.present_load) > self.compliance_torque_threshold[m.name]:
+                    m.compliant = True
+                elif abs(m.present_speed) < 2:
+                    m.compliant = False
+
 
 class ArmsTurnCompliant(LoopPrimitive):
     """ Automatically turns the arms compliant when a force is applied. """
