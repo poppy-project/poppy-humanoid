@@ -1,5 +1,7 @@
 Poppy Humanoid
 ===================
+[![PyPI](https://img.shields.io/pypi/v/poppy-humanoid.svg)](https://pypi.python.org/pypi/poppy-humanoid/)
+
 Poppy is an open source platform dedicated to the conception of animated robotic creature.
 
 ![Trunk Assembled](doc/img/poppy-humanoid-github.jpg)
@@ -22,17 +24,6 @@ All the technological development work made in the Poppy project is freely avail
 
 
 **Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](doc/authors.md) when you use or fork this work.**
-
-
-### 3D Printed
-*TODO*
-
-### Fully-Modular
-*TODO*
-
-### Community
-*TODO*
-
 
 
 ## Build your own Poppy Humanoid
