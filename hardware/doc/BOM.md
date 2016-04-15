@@ -67,7 +67,7 @@ Last full release:  https://github.com/poppy-project/Poppy-Humanoid/releases/
 - [Nano Wifi Dongle](http://www.amazon.fr/gp/product/B003MTTJOY)
 
 ### Sensors
-- [Camera Videw][9] **with FOV 120° or 170°!!** + USB cable
+- [2.0 Megapixels "Videw" Camera with OV2643 CMOS sensor](http://www.alibaba.com/product-detail/2-0Megapixel-usb-security-OV2643-camera_60428797303.html) ** equipied with FOV 120° or 170°!!** + USB cable
 - [Sparkfun Razor 9DoF IMU](https://www.sparkfun.com/products/10736) (Optionnal)
 - [Manga Screen](https://www.kickstarter.com/projects/1924187374/manga-screen-multi-touch-43-lcd) (Optionnal)
 
