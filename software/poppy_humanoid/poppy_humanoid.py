@@ -24,7 +24,7 @@ class PoppyHumanoid(AbstractPoppyCreature):
             cls.add_vrep_methods(robot)
 
         for m in robot.motors:
-            m.goto_behavior = 'minjerk'
+            m.goto_behavior = 'dummy'
 
         for m in robot.torso:
             m.compliant_behavior = 'safe'
