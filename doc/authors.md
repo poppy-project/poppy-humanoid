@@ -5,6 +5,8 @@
 * [Pierre Yves Oudeyer](www.pyoudeyer.com) - PM
 * [Jonathan Grizou](//github.com/jgrizou) - Developer
 * [Nicolas Rabault](//github.com/nicolas-rabault) - Developer
+* [Theo Segonds](//github.com/show0k) - Developer
+* [Damien Caselli](//github.com/damiencaselli) - Developer
 
 ### Special Thanks To
 
