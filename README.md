@@ -17,7 +17,8 @@ Then the process to assemble a complete Poppy Humanoid takes about 7h for  handy
 [![](https://farm9.staticflickr.com/8641/16415558386_8b3ae1c21e_z_d.jpg)](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
 
 The assembly process is fully documented with video tutorials.
-### [Go to the Poppy Humanoid assembly documentation >>](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
+
+**For more informations, refer to the [assembly instructions](http://docs.poppy-project.org/en/assembly-guides/poppy-humanoid/index.html)**.
 
 ### Install poppy-humanoid
 #### Install a Poppy board
