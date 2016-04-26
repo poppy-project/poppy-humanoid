@@ -2,29 +2,9 @@ Poppy Humanoid
 ===================
 [![PyPI](https://img.shields.io/pypi/v/poppy-humanoid.svg)](https://pypi.python.org/pypi/poppy-humanoid/)
 
-Poppy is an open source platform dedicated to the conception of animated robotic creature.
-
-![Trunk Assembled](doc/img/poppy-humanoid-github.jpg)
-
-The first and most advanced creature is the fully 3D printed Poppy Humanoid.
-
-## Presentation
-
 Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
 
-### Open Source
-
-All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
-
-
-|   License     |     Hardware    |   Software      |
-| ------------- | :-------------: | :-------------: |
-| Title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
-| Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
-
-
-**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](doc/authors.md) when you use or fork this work.**
-
+![Trunk Assembled](doc/img/poppy-humanoid-github.jpg)
 
 ## Build your own Poppy Humanoid
 
@@ -37,12 +17,26 @@ Then the process to assemble a complete Poppy Humanoid takes about 7h for  handy
 [![](https://farm9.staticflickr.com/8641/16415558386_8b3ae1c21e_z_d.jpg)](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
 
 The assembly process is fully documented with video tutorials.
-### [Go to the Poppy Humanoid assembly documentation >>](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
 
-### Install the software tools locally
-If you want to install the software tools locally and not use the embedded board to control the Robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is via pip). 
+**For more informations, refer to the [assembly instructions](http://docs.poppy-project.org/en/assembly-guides/poppy-humanoid/index.html)**.
 
-For more information, you can refer to this [notebook tutorial](http://nbviewer.ipython.org/github/poppy-project/pypot/blob/master/samples/notebooks/Controlling%20a%20Poppy%20humanoid%20in%20V-REP%20using%20pypot.ipynb).
+### Install poppy-humanoid
+#### Install a Poppy board
+Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-humanoid/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
+
+
+You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
+```
+wget https://raw.githubusercontent.com/poppy-project/odroid-poppysetup/master/poppy_setup.sh -O poppy_setup.sh
+sudo bash poppy_setup.sh poppy-humanoid
+```
+**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/install-a-poppy-board.html)**.
+
+
+#### Install on your personnal computer
+If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is with `pip install poppy-humanoid`). 
+
+**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/index.html)**.
 
 
 ## Support
@@ -69,16 +63,18 @@ Maybe the first step is to become a member of the community on the [poppy forum]
 
 For github ninja, you can of course fork this repository and open pull requests to propose your changes, or create issues to notify a problem.
 
-<!-- ## Software
+## License
 
-The software can be directly installed via
-```bash
-pip install poppy_humanoid
-```
-Or it can be download as a [release](https://github.com/poppy-project/Poppy-Humanoid/releases/download/1.0-pre-release/poppy-humanoid-1.0rc2.tar.gz).
+All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
 
 
-It is -->
+|   License     |     Hardware    |   Software      |
+| ------------- | :-------------: | :-------------: |
+| Title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
+| Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
+
+
+**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](doc/authors.md) when you use or fork this work.**
 
 
 ## The Poppy project history
@@ -95,5 +91,6 @@ This project is initially a fundamental research project financed by [ERC Grant 
 - [Forum](https://forum.poppy-project.org)
 - [Twitter](https://twitter.com/poppy_project)
 - [Flickr](https://www.flickr.com/photos/poppy-project)
-- [Vimeo](https://vimeo.com/poppyproject)
+- [YouTube](https://www.youtube.com/channel/UC3iVGSr-vMgnFlIfPBH2p7Q)
+- [Vimeo](https://vimeo.com/poppyproject/videos)
 - [Thingiverse](http://www.thingiverse.com/poppy_project/)
