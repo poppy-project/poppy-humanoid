@@ -28,29 +28,15 @@ Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide ou
 
 
 You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
-
-Be sure that your board is connected to the Internet, download and run poppy_setup.sh.
 ```
 wget https://raw.githubusercontent.com/poppy-project/odroid-poppysetup/master/poppy_setup.sh -O poppy_setup.sh
 sudo bash poppy_setup.sh poppy-humanoid
 ```
-You should lose your ssh connection because of the board reboot. This reboot is needed to proceed to the finalisation of the partition resizing. Now your board should installing all the poppy environment. **Please do not unpower the board or shut-it down.**
-
-You can see the installation process by reconnecting you to your board with your new poppy account: `ssh poppy@poppy.local` password=poppy. 
-**Because of the compilation of heavy Python packages (Scipy, Numpy) it can take 30 to 45 minutes to complete.**
-
-A process will automatically take you terminal and print the installation output. You can leave it with `ctrl+c`. 
-Be patient...
-
-At the end of the installation, your board will reboot again. You can look at the log `tail -f /home/poppy/install_log`.
-> **Note:** If you are not sure of what is going on, you can see if the install process is running with: `ps up $(pgrep -f 'poppy_launcher.sh')`
-
-The hostname, default user and password will be all set to "poppy" (`ssh poppy@poppy.local` password=poppy).
-You can test your installation with the web interface in your web browser http://poppy.local.
+**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/install-a-poppy-board.html)**.
 
 
 #### Install on your personnal computer
-If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is via `pip install poppy-humanoid). 
+If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is with `pip install poppy-humanoid`). 
 
 **For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/index.html)**.
 
@@ -108,4 +94,5 @@ This project is initially a fundamental research project financed by [ERC Grant 
 - [Twitter](https://twitter.com/poppy_project)
 - [Flickr](https://www.flickr.com/photos/poppy-project)
 - [YouTube](https://www.youtube.com/channel/UC3iVGSr-vMgnFlIfPBH2p7Q)
+- [Vimeo](https://vimeo.com/poppyproject/videos)
 - [Thingiverse](http://www.thingiverse.com/poppy_project/)
