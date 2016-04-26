@@ -6,9 +6,6 @@ Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for re
 
 ![Trunk Assembled](doc/img/poppy-humanoid-github.jpg)
 
-The first and most advanced creature is the fully 3D printed Poppy Humanoid.
-
-
 ## Build your own Poppy Humanoid
 
 Building a complete Poppy Humanoid costs $8000-9000 with about 60% for buying the 25 Robotis Dynamixel actuators required. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md).
