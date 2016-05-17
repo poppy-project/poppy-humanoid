@@ -4,7 +4,30 @@ Poppy Humanoid
 
 Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
 
+
 ![Trunk Assembled](doc/img/poppy-humanoid-github.jpg)
+
+### Open Source
+
+All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
+
+
+|   License     |     Hardware    |   Software      |
+| ------------- | :-------------: | :-------------: |
+| Title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
+| Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
+
+
+**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](doc/authors.md) when you use or fork this work.**
+
+### Looking for the Solidworks files ?
+
+We are using a GitHub feature called GIT LFS. It is great for versionning solidworks files but it stills lack basic features. If you download directly solidworks files from this web page, you will get an empty file...
+
+You have two option:
+
+1. Download the last official Solidworks version in the [release](releases/). You will also find STL, STEP and parasolid files.
+- Clone locally this repository following [this guide](doc/cloning.md). This solution is only for people desiring to contribute or develop news hardware features for Poppy.
 
 ## Build your own Poppy Humanoid
 
@@ -24,6 +47,8 @@ The assembly process is fully documented with video tutorials.
 #### Install a Poppy board
 Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-humanoid/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
 
+### Install the software tools locally
+If you want to install the software tools locally and not use the embedded board to control the Robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is via pip).
 
 You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
 ```
@@ -34,7 +59,7 @@ sudo bash poppy_setup.sh poppy-humanoid
 
 
 #### Install on your personnal computer
-If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is with `pip install poppy-humanoid`). 
+If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is with `pip install poppy-humanoid`).
 
 **For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/index.html)**.
 
@@ -49,12 +74,12 @@ You can in particular check for the [Poppy Humanoid category](https://forum.popp
 
 If you are interrested by contribuing to the Poppy project, you can **take a look at [open issues](https://github.com/poppy-project/poppy-humanoid/issues) and [call for contributions](https://forum.poppy-project.org/tags/call-for-contributions)**.
 
-Morevover, the Poppy project involves a very large scope of disciplines: 
- - Engineering fields such as computer science, mechanics, electronics, machine learning... 
+Morevover, the Poppy project involves a very large scope of disciplines:
+ - Engineering fields such as computer science, mechanics, electronics, machine learning...
  - Humanities such as cognitive science, psychology...
  - Life science such as biology, biomechanics,...
  - Community management, scientific mediation, communication...
- - Design such as web design, object design, UX,... 
+ - Design such as web design, object design, UX,...
  - Art with the need of animator to create [the illusion of life](http://en.wikipedia.org/wiki/Disney_Animation:_The_Illusion_of_Life) and emotions.
 
 So there are many ways to contribute to this project and you are very welcome to do it.
