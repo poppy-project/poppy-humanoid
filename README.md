@@ -26,8 +26,8 @@ We are using a GitHub feature called GIT LFS. It is great for versionning solidw
 
 You have two option:
 
-1. Download the last official Solidworks version in the [release](releases/). You will also find STL, STEP and parasolid files.
-- Clone locally this repository following [this guide](doc/cloning.md). This solution is only for people desiring to contribute or develop news hardware features for Poppy.
+1. Download the last official Solidworks version in the [release](https://github.com/poppy-project/poppy-humanoid/releases). You will also find STL, STEP and parasolid files.
+- Clone locally this repository following [this guide](doc/en/cloning.md). This solution is only for people desiring to contribute or develop news hardware features for Poppy.
 
 ## Build your own Poppy Humanoid
 
