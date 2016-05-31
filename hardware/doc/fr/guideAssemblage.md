@@ -37,7 +37,7 @@ N'hésitez pas à améliorer cette documentation et à signaler les erreurs sur 
 - [**Assemblage des bras >>**](assemblage_bras.md)
 - [**Assemblage du tronc >>**](assemblage_tronc.md)
 - [**Assemblage des jambes >>**](assemblage_jambes.md)
-- [**Assemblage de la tête >>**](assemblage_tete.md)
+- [**Assemblage de la tête >>**](https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/head_assembly_instructions.md)
 
 # Liens utiles
 
@@ -62,4 +62,3 @@ Doc. de Dynamixel wizard: <http://support.robotis.com/en/software/roboplus/dynam
 Logiciel Bonjour: <https://support.apple.com/kb/DL999?locale=fr_FR&viewlocale=fr_FR>
 
 Fichiers STL: <https://github.com/poppy-project/poppy-humanoid/releases/download/Official_1.0_Hardware_release/STL_3D_printed_parts.zip>
-
