@@ -18,8 +18,8 @@ setup(name='poppy-humanoid',
       version=version(),
       packages=find_packages(),
 
-      install_requires=['poppy-creature >= 1.6.0',
-                        'pypot >= 2.7.0'],
+      install_requires=['poppy-creature >= 1.8',
+                        'pypot >= 2.11'],
 
       setup_requires=['setuptools_git >= 0.3', ],
 
