@@ -38,7 +38,7 @@ Please don’t hesitate to comment and correct this documentation on the Poppy f
 - [**Arms assembly >>**](arms_assembly.md)
 - [**Trunk assembly >>**](trunk_assembly.md)
 - [**Legs assembly >>**](legs_assembly.md)
-- [**Head assembly >>**](head_assembly.md)
+- [**Head assembly >>**](https://github.com/poppy-project/Poppy-minimal-head-design/blob/master/doc/head_assembly_instructions.md)
 
 
 # Useful links
