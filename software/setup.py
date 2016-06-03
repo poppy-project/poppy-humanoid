@@ -21,8 +21,6 @@ setup(name='poppy-humanoid',
       install_requires=['poppy-creature >= 1.8',
                         'pypot >= 2.11'],
 
-      setup_requires=['setuptools_git >= 0.3', ],
-
       include_package_data=True,
       exclude_package_data={'': ['README', '.gitignore']},
 
