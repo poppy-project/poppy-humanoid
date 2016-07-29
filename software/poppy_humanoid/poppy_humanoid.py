@@ -4,7 +4,7 @@ import ctypes
 
 from functools import partial
 
-from poppy.creatures import AbstractPoppyCreature
+from pypot.creatures import AbstractPoppyCreature
 
 from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
