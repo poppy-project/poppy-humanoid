@@ -128,7 +128,7 @@ Custom:
 - scotch white http://fr.farnell.com/jsp/search/productdetail.jsp?SKU=1825466
 
 
-  [1]: http://www.hardkernel.com/main/products/prdt_info.php?g_code=G138745696275
+  [1]: https://www.hardkernel.com/shop/odroid-u3/
   [2]: http://www.hardkernel.com/main/products/prdt_info.php?g_code=G138749987644
   [3]: http://www.hardkernel.com/main/products/prdt_info.php?g_code=G138960965859
   [4]: http://%20http://www.hardkernel.com/main/products/prdt_info.php?g_code=G138760358261
