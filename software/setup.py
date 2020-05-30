@@ -17,21 +17,11 @@ if sys.version_info >= (3,):
     extra['use_2to3'] = True
 
 
-# poppy-creature is a placeholder to avoid breaking code examples
-# all its code is now in pypot
-extra_packages = []
-try:
-    import poppy.creatures
-
-    extra_packages.append('poppy-creature >= 2.0')
-except ImportError:
-    pass
-
 setup(name='poppy-humanoid',
       version=version(),
       packages=find_packages(),
 
-      install_requires=['pypot >= 3.0.0'] + extra_packages,
+      install_requires=['pypot >= 3.0.0'],
 
       include_package_data=True,
       exclude_package_data={'': ['README', '.gitignore']},
