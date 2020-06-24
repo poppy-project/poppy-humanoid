@@ -1,4 +1,4 @@
-from __future__ import division
+
 
 import time
 import itertools
@@ -13,7 +13,7 @@ class InitRobot(pypot.primitive.Primitive):
         self.robot.power_up()
 
         # Change PID of Dynamixel MX motors
-        for m in filter(lambda m: hasattr(m, 'pid'), self.robot.motors):
+        for m in [m for m in self.robot.motors if hasattr(m, 'pid')]:
             m.pid = (4, 2, 0)
         for m in self.robot.torso:
             m.pid = (6, 2, 0)
