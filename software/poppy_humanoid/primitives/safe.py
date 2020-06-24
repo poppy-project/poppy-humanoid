@@ -1,4 +1,4 @@
-from __future__ import division
+
 import platform
 import logging
 import subprocess
@@ -48,7 +48,7 @@ class LimitTorque(pypot.primitive.LoopPrimitive):
 
     @change_watched_motors.setter
     def change_watched_motors(self, watched_motors):
-        self.active_motors = map(self.get_mockup_motor, watched_motors)
+        self.active_motors = list(map(self.get_mockup_motor, watched_motors))
 
     @property
     def max_error(self):
