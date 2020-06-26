@@ -21,7 +21,7 @@ if sys.version_info >= (3,):
 # all its code is now in pypot
 extra_packages = []
 try:
-    import poppy.creatures
+    import pypot.creatures
 
     extra_packages.append('poppy-creature >= 2.0')
 except ImportError:
