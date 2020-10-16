@@ -12,8 +12,8 @@ class ArmsTurnCompliant(LoopPrimitive):
             m.torque_limit = 20
 
         freq = 1. / self.period
-        self.l_arm_torque = deque([0], 0.2 * freq)
-        self.r_arm_torque = deque([0], 0.2 * freq)
+        self.l_arm_torque = deque([0], int(0.2 * freq))
+        self.r_arm_torque = deque([0], int(0.2 * freq))
 
     def update(self):
         for side in ('l', 'r'):
