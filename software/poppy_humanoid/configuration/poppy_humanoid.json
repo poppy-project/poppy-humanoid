@@ -321,5 +321,13 @@
       ],
       "orientation": "direct"
     }
+  },
+  "sensors": {
+    "camera": {
+      "type": "OpenCVCamera",
+      "index": -1,
+      "fps": 20.0,
+      "resolution": [640, 480]
+    }
   }
 }
