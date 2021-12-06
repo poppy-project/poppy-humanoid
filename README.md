@@ -31,42 +31,27 @@ You have two option:
 
 ## Build your own Poppy Humanoid
 
-Building a complete Poppy Humanoid costs $8000-9000 with about 60% for buying the 25 Robotis Dynamixel actuators required. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md).
+Building a complete Poppy Humanoid costs $8000-9000 with about 60% for buying the 25 Robotis Dynamixel actuators required. The full BOM is available here >> [Bill Of Material](https://docs.poppy-project.org/en/assembly-guides/poppy-humanoid/bom.html).
 
 **The STL files are available in [the releases](https://github.com/poppy-project/poppy-humanoid/releases) of this repository.**
 
-Then the process to assemble a complete Poppy Humanoid takes about 7h for  handyman people. Yet the skills required are very limited and should not be a problem for anyone able to hold a screwdriver.
+Then the process to assemble a complete Poppy Humanoid takes about 7hrs for  handyman people.
 
-[![](https://farm9.staticflickr.com/8641/16415558386_8b3ae1c21e_z_d.jpg)](hardware/doc/Poppy_Humanoid_assembly_instructions.md)
-
-The assembly process is fully documented with video tutorials.
-
-**For more informations, refer to the [assembly instructions](hardware/doc/Poppy_Humanoid_assembly_instructions.md)**.
+**For more informations, refer to the [assembly instructions](https://docs.poppy-project.org/en/assembly-guides/poppy-humanoid/)**.
 
 ### Install poppy-humanoid
 #### Install a Poppy board
-Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-humanoid/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
+Poppy Humanoid is made to work with a Raspberry Pi 3 or 4. We provide our own [system image](https://github.com/poppy-project/poppy-humanoid/releases) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
 
 ### Install the software tools locally
-If you want to install the software tools locally and not use the embedded board to control the Robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is via pip).
 
-You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
-```
-wget https://raw.githubusercontent.com/poppy-project/odroid-poppysetup/master/poppy_setup.sh -O poppy_setup.sh
-sudo bash poppy_setup.sh poppy-humanoid
-```
-**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/install-a-poppy-board.html)**.
-
-
-#### Install on your personnal computer
-If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-humanoid](https://github.com/poppy-project/poppy-humanoid/tree/master/software) package (the easiest way is with `pip install poppy-humanoid`).
+You way also connect Poppy Huanoid's motors directly on your own computer with a USB2Dynamixel or USB2AX adapter instead of using the embedded Raspberry Pi 3/4 board. Just install software with pip: `pip install poppy-humanoid`.
 
 **For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/index.html)**.
 
-
 ## Support
 You need support ?
-The [Poppy forum](https://forum.poppy-project.org) is the best (and single) place to ask for help !
+The [Poppy forum](https://forum.poppy-project.org) is the best (and single) place to ask for help.
 
 You can in particular check for the [Poppy Humanoid category](https://forum.poppy-project.org/c/poppy-creatures/humanoid).
 
@@ -107,7 +92,7 @@ All the technological development work made in the Poppy project is freely avail
 The Poppy project is born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](http://www.inria.fr/en/centre/bordeaux).
 It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
 
-This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks.
+This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks. It is now hosted by the [Poppy Station non-profit](https://www.poppy-station.org/en).
 
 
 ### More on the project
