@@ -10,7 +10,7 @@ from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
 from .primitives.posture import StandPosition, SitPosition
 from .primitives.idle import UpperBodyIdleMotion, HeadIdleMotion
-from .primitives.interaction import ArmsTurnCompliant, PuppetMaster
+from .primitives.interaction import TorsoTurnCompliant, ArmsTurnCompliant, PuppetMaster
 
 
 class PoppyHumanoid(AbstractPoppyCreature):
@@ -52,6 +52,7 @@ class PoppyHumanoid(AbstractPoppyCreature):
         robot.attach_primitive(HeadIdleMotion(robot, 50), 'head_idle_motion')
 
         # Interaction primitives
+        robot.attach_primitive(TorsoTurnCompliant(robot, 300), 'torso_turn_compliant')
         robot.attach_primitive(ArmsTurnCompliant(robot, 50), 'arms_turn_compliant')
         robot.attach_primitive(PuppetMaster(robot, 50), 'arms_copy_motion')
 
